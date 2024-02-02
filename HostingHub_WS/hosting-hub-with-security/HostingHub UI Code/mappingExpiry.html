@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostDomain viewport</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="mappingView.css">
+</head>
+
+<body>
+    <div class="grid-container">
+
+  <div class="top-navbar">
+       
+    <div class="logo">
+        <img src="https://pathbreakertech.com/uploads/settings/general_settings_1675415847_112573057.png" alt="PathBreaker Logo">
+    </div>
+    <h1 class="dashboard-title">Hosting Hub Dashboard</h1>
+
+    <div class="user-icon">
+        <img src="img/user-icon.png" alt="User Icon">
+        <div class="dropdown">
+            <div class="dropdown-content">
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="left-navbar">
+    <div class="container">
+        <aside class="sidebar">
+          <ul>
+            <!-- <li class="has-submenu">
+                <a href="#">ADMIN</a>
+                <ul class="submenu">
+                  <li><a href="adminAdd.html">Register</a></li>
+                  <li><a href="adminView.html">View</a></li>
+                </ul>
+              </li> -->
+              <li class="has-submenu">
+                <a href="#">DOMAIN</a>
+                <ul class="submenu">
+                  <li><a href="domainAdd.html">Register</a></li>
+                  <li><a href="domainView.html">View</a></li>
+                </ul>
+              </li>
+              <li class="has-submenu">
+                <a href="#">HOSTING</a>
+                <ul class="submenu">
+                  <li><a href="hostingAdd.html">Register</a></li>
+                  <li><a href="hostingView.html">View</a></li>
+                </ul>
+              </li>
+            <li class="has-submenu">
+              <a href="#">HOSTDOMAIN MAP</a>
+              <ul class="submenu">
+                <li><a href="mappingAdd.html">Register</a></li>
+                <li><a href="mappingView.html">View</a></li>
+              </ul>
+            </li>
+            <li class="has-submenu">
+                <a href="#">HOSTDOMAIN MAP EXPIRY</a>
+                <ul class="submenu"> 
+                  <li><a href="mappingExpiry.html">View</a></li>
+                </ul>
+              </li>
+          </ul>
+        </aside>
+        <main class="content">
+        </main>
+      </div>
+    </div>
+      <script></script>
+
+    <div class="container">
+      <h1 class="heading">HostDomain Map Expiry List</h1>
+          <table id="hostDomainMapTable">
+              <thead>
+                  <tr>
+                      <th>Domain Name</th>
+                      <th>Host Provider</th>
+                      <th>Payment</th>
+                      <th>Registration Date</th>
+                      <th>Expire Date</th>
+                      <th>Duration</th>
+                      <th>Days Left</th>
+                  </tr> 
+              </thead>
+              <tbody>
+                  <!-- Data will be populated here using JavaScript -->
+              </tbody>
+    </div>
+          </table>
+    </div>
+        
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch('http://localhost:8090/domhostmapexpiry/all')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log("Data fetched successfully:", data);
+                    data.forEach(hostdomain => {
+                        const row = document.getElementById("hostDomainMapTable").insertRow();
+                        const domainNameCell = row.insertCell(0);
+                        const hostProviderCell = row.insertCell(1);
+                        const paymentCell = row.insertCell(2);
+                        const registrationDateCell = row.insertCell(3);
+                        const expiryDateCell = row.insertCell(4);
+                        const durationCell = row.insertCell(5);
+                        const daysLeftCell = row.insertCell(6);
+
+                        domainNameCell.textContent = hostdomain.domainName;
+                        hostProviderCell.textContent = hostdomain.hostProvider;
+                        paymentCell.textContent = hostdomain.payment;
+                        registrationDateCell.textContent = hostdomain.registrationDate;
+                        expiryDateCell.textContent = hostdomain.expiryDate;
+                        durationCell.textContent = hostdomain.duration;
+                        daysLeftCell.textContent = hostdomain.daysLeft;
+
+                        // Check if daysLeft is less than or equal to 7
+                        if (hostdomain.daysLeft <= 7) {
+                            daysLeftCell.classList.add('warning'); // Add a warning class to daysLeftCell
+                        }
+
+                        // Check if the expiry date is approaching or has passed
+                        const currentDate = new Date();
+                        const expiryDate = new Date(
+                            hostdomain.expiryDate.replace(/(\d{2})\/(\d{2})\/(\d{4})/, '$2/$1/$3'));
+                        const daysUntilExpiry = Math.floor((expiryDate - currentDate) / (1000 * 60 * 60 * 24));
+
+                        if (daysUntilExpiry <= 0) {
+                            row.classList.add('expired');
+                        } else if (daysUntilExpiry <= 7) {
+                            row.classList.add('approaching');
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error('Error:', error.message);
+                    console.error('Error stack trace:', error.stack);
+                });
+        });
+    </script>
+</body>
+</html>

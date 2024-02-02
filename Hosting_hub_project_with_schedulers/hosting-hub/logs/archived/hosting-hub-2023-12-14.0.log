@@ -1,0 +1,371 @@
+2023-12-14 10:08:46,130 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplication using Java 20.0.1 with PID 10924 (D:\HostingHub_WS\hosting-hub\target\classes started by Admin in D:\HostingHub_WS\hosting-hub)
+2023-12-14 10:08:46,135 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:630 No active profile set, falling back to 1 default profile: "default"
+2023-12-14 10:08:46,355 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-14 10:08:46,356 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-14 10:08:47,490 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-14 10:08:47,491 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-14 10:08:47,577 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 68 ms. Found 6 JPA repository interfaces.
+2023-12-14 10:08:47,919 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-14 10:08:47,920 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-12-14 10:08:47,960 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:08:47,961 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.DomainRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:08:47,966 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.EmailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:08:47,968 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.HostingRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:08:47,969 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.ItReturnsRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:08:47,970 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.PasswordRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:08:47,970 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 48 ms. Found 0 JDBC repository interfaces.
+2023-12-14 10:08:49,357 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 8090 (http)
+2023-12-14 10:08:49,373 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-8090"]
+2023-12-14 10:08:49,375 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-12-14 10:08:49,375 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-12-14 10:08:49,455 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-12-14 10:08:49,457 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 3097 ms
+2023-12-14 10:08:49,518 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-12-14 10:08:49,824 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60f39e94
+2023-12-14 10:08:49,825 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-12-14 10:08:49,837 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/hostinghub'
+2023-12-14 10:08:50,063 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-14 10:08:50,148 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-12-14 10:08:50,360 WARN  [restartedMain] org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-12-14 10:08:50,480 INFO  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:66 HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-14 10:08:50,481 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:73 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-14 10:08:51,705 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-14 10:08:51,713 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-14 10:08:53,474 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:227 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-14 10:08:54,455 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-12-14 10:08:54,474 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-8090"]
+2023-12-14 10:08:54,505 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 8090 (http) with context path ''
+2023-12-14 10:08:54,519 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplication in 9.243 seconds (process running for 10.153)
+2023-12-14 10:09:38,008 INFO  [http-nio-8090-exec-1] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 10:09:38,008 INFO  [http-nio-8090-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-12-14 10:09:38,012 INFO  [http-nio-8090-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 2 ms
+2023-12-14 10:09:38,272 INFO  [http-nio-8090-exec-1] com.example.hostinghub.service.DomainService.getAllDomains:158 The size of the domains is: 5
+2023-12-14 10:09:38,423 ERROR [http-nio-8090-exec-1] com.example.hostinghub.service.DomainService.getAllDomains:184 Error occurred while retrieving all domains: Text '01-01-2024' could not be parsed at index 2
+java.time.format.DateTimeParseException: Text '01-01-2024' could not be parsed at index 2
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at com.example.hostinghub.service.DomainService.getAllDomains(DomainService.java:167)
+	at com.example.hostinghub.controller.DomainController.getAllDomains(DomainController.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:902)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-12-14 10:10:44,901 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-14 10:10:44,905 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-12-14 10:10:44,928 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2023-12-14 10:10:53,975 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplication using Java 20.0.1 with PID 10348 (D:\HostingHub_WS\hosting-hub\target\classes started by Admin in D:\HostingHub_WS\hosting-hub)
+2023-12-14 10:10:53,980 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:630 No active profile set, falling back to 1 default profile: "default"
+2023-12-14 10:10:54,177 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-14 10:10:54,178 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-14 10:10:55,157 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-14 10:10:55,158 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-14 10:10:55,236 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 65 ms. Found 6 JPA repository interfaces.
+2023-12-14 10:10:55,548 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-14 10:10:55,550 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-12-14 10:10:55,583 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:10:55,584 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.DomainRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:10:55,585 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.EmailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:10:55,588 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.HostingRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:10:55,590 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.ItReturnsRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:10:55,591 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.PasswordRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:10:55,591 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 40 ms. Found 0 JDBC repository interfaces.
+2023-12-14 10:10:56,764 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 8090 (http)
+2023-12-14 10:10:56,779 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-8090"]
+2023-12-14 10:10:56,780 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-12-14 10:10:56,781 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-12-14 10:10:56,871 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-12-14 10:10:56,872 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2692 ms
+2023-12-14 10:10:56,936 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-12-14 10:10:57,204 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67cb6fe0
+2023-12-14 10:10:57,205 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-12-14 10:10:57,214 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/hostinghub'
+2023-12-14 10:10:57,508 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-14 10:10:57,649 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-12-14 10:10:57,867 WARN  [restartedMain] org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-12-14 10:10:58,039 INFO  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:66 HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-14 10:10:58,040 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:73 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-14 10:10:59,182 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-14 10:10:59,189 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-14 10:11:00,849 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:227 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-14 10:11:01,468 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-12-14 10:11:01,489 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-8090"]
+2023-12-14 10:11:01,517 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 8090 (http) with context path ''
+2023-12-14 10:11:01,552 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplication in 8.372 seconds (process running for 9.12)
+2023-12-14 10:11:06,562 INFO  [http-nio-8090-exec-1] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 10:11:06,563 INFO  [http-nio-8090-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-12-14 10:11:06,564 INFO  [http-nio-8090-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 1 ms
+2023-12-14 10:11:06,672 INFO  [http-nio-8090-exec-1] com.example.hostinghub.service.DomainService.getAllDomains:158 The size of the domains is: 5
+2023-12-14 10:11:06,682 ERROR [http-nio-8090-exec-1] com.example.hostinghub.service.DomainService.getAllDomains:184 Error occurred while retrieving all domains: Text '01/01/2024' could not be parsed at index 2
+java.time.format.DateTimeParseException: Text '01/01/2024' could not be parsed at index 2
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at com.example.hostinghub.service.DomainService.getAllDomains(DomainService.java:167)
+	at com.example.hostinghub.controller.DomainController.getAllDomains(DomainController.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:902)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-12-14 10:11:07,901 INFO  [http-nio-8090-exec-2] com.example.hostinghub.service.DomainService.getAllDomains:158 The size of the domains is: 5
+2023-12-14 10:11:07,904 ERROR [http-nio-8090-exec-2] com.example.hostinghub.service.DomainService.getAllDomains:184 Error occurred while retrieving all domains: Text '01/01/2024' could not be parsed at index 2
+java.time.format.DateTimeParseException: Text '01/01/2024' could not be parsed at index 2
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at com.example.hostinghub.service.DomainService.getAllDomains(DomainService.java:167)
+	at com.example.hostinghub.controller.DomainController.getAllDomains(DomainController.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:902)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-12-14 10:12:06,123 INFO  [http-nio-8090-exec-5] com.example.hostinghub.service.DomainService.getAllDomains:158 The size of the domains is: 5
+2023-12-14 10:15:03,714 INFO  [http-nio-8090-exec-3] com.example.hostinghub.service.DomainService.getAllDomains:158 The size of the domains is: 5
+2023-12-14 10:32:53,075 ERROR [http-nio-8090-exec-8] com.example.hostinghub.service.HostingService.saveHosting:171 Error saving hosting information
+java.time.format.DateTimeParseException: Text '12-11-2023' could not be parsed at index 2
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008)
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435)
+	at com.example.hostinghub.service.HostingService.saveHosting(HostingService.java:155)
+	at com.example.hostinghub.controller.HostingAddController.saveHosting(HostingAddController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1010)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:913)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-12-14 10:33:25,805 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-14 10:33:25,809 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-12-14 10:33:25,820 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2023-12-14 10:33:30,605 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplication using Java 20.0.1 with PID 7196 (D:\HostingHub_WS\hosting-hub\target\classes started by Admin in D:\HostingHub_WS\hosting-hub)
+2023-12-14 10:33:30,613 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:630 No active profile set, falling back to 1 default profile: "default"
+2023-12-14 10:33:30,707 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-14 10:33:30,707 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-14 10:33:31,412 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-14 10:33:31,414 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-14 10:33:31,487 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+2023-12-14 10:33:31,744 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-14 10:33:31,745 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-12-14 10:33:31,770 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:33:31,771 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.DomainRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:33:31,772 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.EmailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:33:31,772 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.HostingRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:33:31,773 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.ItReturnsRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:33:31,773 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.hostinghub.repository.PasswordRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-12-14 10:33:31,774 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 29 ms. Found 0 JDBC repository interfaces.
+2023-12-14 10:33:32,682 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 8090 (http)
+2023-12-14 10:33:32,691 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-8090"]
+2023-12-14 10:33:32,693 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-12-14 10:33:32,693 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-12-14 10:33:32,758 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-12-14 10:33:32,762 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2051 ms
+2023-12-14 10:33:32,799 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-12-14 10:33:33,011 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27d3a90b
+2023-12-14 10:33:33,014 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-12-14 10:33:33,027 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/hostinghub'
+2023-12-14 10:33:33,240 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-14 10:33:33,292 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-12-14 10:33:33,496 WARN  [restartedMain] org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-12-14 10:33:33,625 INFO  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:66 HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-14 10:33:33,626 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:73 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-14 10:33:34,468 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-14 10:33:34,476 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-14 10:33:35,335 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:227 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-14 10:33:35,790 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-12-14 10:33:35,802 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-8090"]
+2023-12-14 10:33:35,822 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 8090 (http) with context path ''
+2023-12-14 10:33:35,837 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplication in 5.886 seconds (process running for 6.442)
+2023-12-14 10:34:04,043 INFO  [http-nio-8090-exec-2] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-14 10:34:04,044 INFO  [http-nio-8090-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-12-14 10:34:04,045 INFO  [http-nio-8090-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 1 ms
+2023-12-14 10:34:04,453 INFO  [http-nio-8090-exec-2] com.example.hostinghub.service.HostingService.saveHosting:166 Adding new hosting information HostingEntity(hostingId=HA003, hostingProvider=Vineeth, url=http://www.facebook.com, login=vineeth, password=USU8D6GsEiJR0MgWoKkvJA==, registrationEmailId=vineetht@pathbreakertech.in, registrationPhoneNumber=9878998789, registrationDomain=hostingCpannelUrl, registrationDate=12-11-2023, expiryDate=12-01-2024, hostingCpannelUrl=http://www.twitter.com, userName=vineeth , hostingDnsName=roder, daysLeft=61, passwordsEntity=PasswordsEntity(passwordId=PWD014, userName=vineeth , password=GQ6oKhEk1okJJAvZwbUFBg==, registrationDate=12-11-2023, expiryDate=12-01-2024, daysLeft=61, updateDate=null, domainEntity=null, hostings=null, itReturns=null)) : 
+2023-12-14 10:44:21,908 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m18s632ms706µs900ns).
+2023-12-14 10:56:37,100 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m45s149ms13µs200ns).
+2023-12-14 11:29:31,051 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m53s674ms31µs600ns).
+2023-12-14 11:37:41,460 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s310ms121µs100ns).
+2023-12-14 12:08:52,876 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m11s303ms630µs300ns).
+2023-12-14 12:42:40,890 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m47s531ms964µs100ns).
+2023-12-14 12:50:34,259 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m23s298ms284µs).
+2023-12-14 12:56:20,803 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s465ms717µs500ns).
+2023-12-14 13:27:22,201 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m31s348ms806µs).
+2023-12-14 14:33:11,700 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m19s419ms337µs800ns).
+2023-12-14 14:41:57,475 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s647ms491µs199ns).
+2023-12-14 14:47:50,334 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m22s816ms187µs800ns).
+2023-12-14 15:49:45,620 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m55s189ms467µs801ns).
+2023-12-14 15:51:21,663 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-14 15:51:21,669 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-12-14 15:51:21,682 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.

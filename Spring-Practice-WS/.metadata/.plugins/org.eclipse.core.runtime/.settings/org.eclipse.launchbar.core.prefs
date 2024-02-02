@@ -1,0 +1,12 @@
+LaunchTargetManager/configs/SpringSecurityJwtApplication=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Division,org.eclipse.launchbar.core.descriptorType.default\:UploadingDocument - UploadingDocumentApplication,org.eclipse.launchbar.core.descriptorType.default\:spring-security-basics - SpringSecurityBasicsApplication,org.eclipse.launchbar.core.descriptorType.default\:spring-security-jpa - SpringSecurityJpaApplication,org.eclipse.launchbar.core.descriptorType.default\:spring-security-LDAP - SpringSecurityLdapApplication,org.eclipse.launchbar.core.descriptorType.default\:SpringApplication,org.eclipse.launchbar.core.descriptorType.default\:SpringSecurityLdapApplication,org.eclipse.launchbar.core.descriptorType.default\:SpringSecurityCorsoriginApplication,org.eclipse.launchbar.core.descriptorType.default\:SpringSecurityCorsoriginClientApplication,org.eclipse.launchbar.core.descriptorType.default\:SpringSecurityJwtApplication
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Division/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Division/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:SpringApplication/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:SpringApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:spring-security-basics\ -\ SpringSecurityBasicsApplication/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:spring-security-basics\ -\ SpringSecurityBasicsApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

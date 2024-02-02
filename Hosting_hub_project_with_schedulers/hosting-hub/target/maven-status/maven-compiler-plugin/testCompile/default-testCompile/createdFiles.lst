@@ -1,0 +1,8 @@
+com\example\hostinghub\service\HostingServiceTest.class
+com\example\hostinghub\service\EmailServiceTest.class
+com\example\hostinghub\service\PasswordsServiceTest.class
+com\example\hostinghub\service\DomainServiceTest.class
+com\example\hostinghub\service\HostDomainMapServiceTest.class
+com\example\hostinghub\service\ItReturnsServiceTest.class
+com\example\hostinghub\HostingHubApplicationTests.class
+com\example\hostinghub\service\AdminServiceTest.class

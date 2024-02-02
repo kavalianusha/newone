@@ -1,0 +1,17 @@
+server:
+  port: 8070
+
+spring:
+  application:
+    name: jwt-token
+  datasource:
+    url: jdbc:mysql://localhost:3306/anusha
+    username: root
+    password: 1309
+    jpa:
+      hibernate:
+        ddl-auto: update # Disable automatic schema generation
+      show-sql: true
+      database-platform: org.hibernate.dialect.MySQL8Dialect
+      dialect: org.hibernate.dialect.MySQL8Dialect
+

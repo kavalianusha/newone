@@ -1,0 +1,916 @@
+2023-10-09 10:04:23,628 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting EfilingBazaarProjectApplication using Java 20.0.1 with PID 12680 (D:\Efiling_WS\Anusha\efiling-bazaar\target\classes started by Admin in D:\Efiling_WS\Anusha\efiling-bazaar)
+2023-10-09 10:04:23,638 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:634 No active profile set, falling back to 1 default profile: "default"
+2023-10-09 10:04:23,793 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09 10:04:23,794 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09 10:04:24,687 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 10:04:24,688 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09 10:04:24,830 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 124 ms. Found 9 JPA repository interfaces.
+2023-10-09 10:04:25,295 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 10:04:25,297 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-09 10:04:25,357 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:04:25,358 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.CustomerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:04:25,359 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.EmployeeRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:04:25,360 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:04:25,361 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LogRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:04:25,362 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.MainServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:04:25,363 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.OtpRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:04:25,364 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.RoleRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:04:25,364 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.SubServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:04:25,365 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 67 ms. Found 0 JDBC repository interfaces.
+2023-10-09 10:04:26,741 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 1234 (http)
+2023-10-09 10:04:26,754 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-1234"]
+2023-10-09 10:04:26,759 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-10-09 10:04:26,759 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-09 10:04:26,837 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-10-09 10:04:26,842 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 3042 ms
+2023-10-09 10:04:26,883 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-10-09 10:04:27,156 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@775e1693
+2023-10-09 10:04:27,159 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-10-09 10:04:27,168 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/efilingbazaar'
+2023-10-09 10:04:27,416 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 10:04:27,490 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-10-09 10:04:27,492 INFO  [restartedMain] org.hibernate.cfg.Environment.<clinit>:191 HHH000406: Using bytecode reflection optimizer
+2023-10-09 10:04:27,648 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 10:04:27,816 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87 No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09 10:04:27,894 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:100 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-09 10:04:28,192 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 10:04:29,028 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 10:04:29,348 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 10:04:31,488 INFO  [restartedMain] org.springframework.data.jpa.repository.query.QueryEnhancerFactory.<clinit>:47 Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-09 10:04:33,002 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 10:04:33,677 WARN  [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists:101 Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-10-09 10:04:34,045 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-10-09 10:04:34,081 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-1234"]
+2023-10-09 10:04:34,135 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 1234 (http) with context path ''
+2023-10-09 10:04:34,177 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started EfilingBazaarProjectApplication in 11.589 seconds (process running for 13.019)
+2023-10-09 10:05:14,605 INFO  [http-nio-1234-exec-2] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 10:05:14,607 INFO  [http-nio-1234-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-10-09 10:05:14,610 INFO  [http-nio-1234-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 2 ms
+2023-10-09 10:26:08,174 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 10:26:08,181 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-10-09 10:26:08,193 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2023-10-09 10:26:15,704 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting EfilingBazaarProjectApplication using Java 20.0.1 with PID 14396 (D:\Efiling_WS\Anusha\efiling-bazaar\target\classes started by Admin in D:\Efiling_WS\Anusha\efiling-bazaar)
+2023-10-09 10:26:15,707 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:634 No active profile set, falling back to 1 default profile: "default"
+2023-10-09 10:26:15,824 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09 10:26:15,829 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09 10:26:16,674 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 10:26:16,674 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09 10:26:16,803 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 113 ms. Found 9 JPA repository interfaces.
+2023-10-09 10:26:17,116 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 10:26:17,117 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-09 10:26:17,147 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:26:17,148 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.CustomerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:26:17,149 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.EmployeeRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:26:17,150 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:26:17,151 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LogRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:26:17,152 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.MainServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:26:17,153 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.OtpRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:26:17,153 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.RoleRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:26:17,154 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.SubServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:26:17,154 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 36 ms. Found 0 JDBC repository interfaces.
+2023-10-09 10:26:18,244 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 1234 (http)
+2023-10-09 10:26:18,257 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-1234"]
+2023-10-09 10:26:18,261 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-10-09 10:26:18,262 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-09 10:26:18,360 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-10-09 10:26:18,362 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2529 ms
+2023-10-09 10:26:18,412 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-10-09 10:26:18,664 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53bc3b22
+2023-10-09 10:26:18,667 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-10-09 10:26:18,679 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/efilingbazaar'
+2023-10-09 10:26:18,907 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 10:26:18,967 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-10-09 10:26:18,969 INFO  [restartedMain] org.hibernate.cfg.Environment.<clinit>:191 HHH000406: Using bytecode reflection optimizer
+2023-10-09 10:26:19,098 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 10:26:19,249 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87 No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09 10:26:19,302 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:100 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-09 10:26:19,613 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 10:26:20,372 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 10:26:20,691 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 10:26:22,132 INFO  [restartedMain] org.springframework.data.jpa.repository.query.QueryEnhancerFactory.<clinit>:47 Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-09 10:26:23,416 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 10:26:24,052 WARN  [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists:101 Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-10-09 10:26:24,346 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-10-09 10:26:24,366 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-1234"]
+2023-10-09 10:26:24,414 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 1234 (http) with context path ''
+2023-10-09 10:26:24,431 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started EfilingBazaarProjectApplication in 9.484 seconds (process running for 10.6)
+2023-10-09 10:27:19,578 INFO  [http-nio-1234-exec-2] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 10:27:19,586 INFO  [http-nio-1234-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-10-09 10:27:19,586 INFO  [http-nio-1234-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 0 ms
+2023-10-09 10:33:06,387 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 10:33:06,390 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-10-09 10:33:06,400 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2023-10-09 10:33:11,975 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting EfilingBazaarProjectApplication using Java 20.0.1 with PID 13904 (D:\Efiling_WS\Anusha\efiling-bazaar\target\classes started by Admin in D:\Efiling_WS\Anusha\efiling-bazaar)
+2023-10-09 10:33:11,984 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:634 No active profile set, falling back to 1 default profile: "default"
+2023-10-09 10:33:12,072 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09 10:33:12,073 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09 10:33:12,912 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 10:33:12,912 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09 10:33:13,014 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 91 ms. Found 9 JPA repository interfaces.
+2023-10-09 10:33:13,285 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 10:33:13,286 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-09 10:33:13,311 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:33:13,312 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.CustomerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:33:13,312 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.EmployeeRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:33:13,313 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:33:13,313 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LogRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:33:13,313 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.MainServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:33:13,314 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.OtpRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:33:13,314 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.RoleRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:33:13,315 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.SubServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:33:13,315 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2023-10-09 10:33:14,330 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 1234 (http)
+2023-10-09 10:33:14,341 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-1234"]
+2023-10-09 10:33:14,345 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-10-09 10:33:14,346 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-09 10:33:14,435 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-10-09 10:33:14,438 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2362 ms
+2023-10-09 10:33:14,485 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-10-09 10:33:14,709 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24790198
+2023-10-09 10:33:14,712 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-10-09 10:33:14,724 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/efilingbazaar'
+2023-10-09 10:33:14,959 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 10:33:15,020 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-10-09 10:33:15,023 INFO  [restartedMain] org.hibernate.cfg.Environment.<clinit>:191 HHH000406: Using bytecode reflection optimizer
+2023-10-09 10:33:15,193 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 10:33:15,343 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87 No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09 10:33:15,380 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:100 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-09 10:33:15,678 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 10:33:16,454 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 10:33:16,731 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 10:33:17,957 INFO  [restartedMain] org.springframework.data.jpa.repository.query.QueryEnhancerFactory.<clinit>:47 Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-09 10:33:19,274 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 10:33:19,795 WARN  [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists:101 Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-10-09 10:33:20,167 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-10-09 10:33:20,187 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-1234"]
+2023-10-09 10:33:20,230 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 1234 (http) with context path ''
+2023-10-09 10:33:20,249 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started EfilingBazaarProjectApplication in 9.045 seconds (process running for 9.85)
+2023-10-09 10:33:26,740 INFO  [http-nio-1234-exec-2] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 10:33:26,740 INFO  [http-nio-1234-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-10-09 10:33:26,741 INFO  [http-nio-1234-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 1 ms
+2023-10-09 10:51:31,591 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 10:51:31,596 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-10-09 10:51:31,605 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2023-10-09 10:51:51,335 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting EfilingBazaarProjectApplication using Java 20.0.1 with PID 1088 (D:\Efiling_WS\Anusha\efiling-bazaar\target\classes started by Admin in D:\Efiling_WS\Anusha\efiling-bazaar)
+2023-10-09 10:51:51,339 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:634 No active profile set, falling back to 1 default profile: "default"
+2023-10-09 10:51:51,437 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09 10:51:51,437 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09 10:51:52,220 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 10:51:52,221 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09 10:51:52,336 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 105 ms. Found 9 JPA repository interfaces.
+2023-10-09 10:51:52,641 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 10:51:52,642 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-09 10:51:52,668 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:51:52,669 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.CustomerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:51:52,670 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.EmployeeRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:51:52,670 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:51:52,671 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LogRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:51:52,675 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.MainServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:51:52,677 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.OtpRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:51:52,681 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.RoleRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:51:52,683 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.SubServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 10:51:52,683 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 40 ms. Found 0 JDBC repository interfaces.
+2023-10-09 10:51:53,765 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 1234 (http)
+2023-10-09 10:51:53,778 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-1234"]
+2023-10-09 10:51:53,782 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-10-09 10:51:53,783 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-09 10:51:53,872 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-10-09 10:51:53,874 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2434 ms
+2023-10-09 10:51:53,931 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-10-09 10:51:54,213 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25fa2e5f
+2023-10-09 10:51:54,218 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-10-09 10:51:54,240 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/efilingbazaar'
+2023-10-09 10:51:54,543 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 10:51:54,609 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-10-09 10:51:54,611 INFO  [restartedMain] org.hibernate.cfg.Environment.<clinit>:191 HHH000406: Using bytecode reflection optimizer
+2023-10-09 10:51:54,786 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 10:51:54,954 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87 No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09 10:51:55,005 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:100 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-09 10:51:55,313 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 10:51:56,194 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 10:51:56,437 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 10:51:57,686 INFO  [restartedMain] org.springframework.data.jpa.repository.query.QueryEnhancerFactory.<clinit>:47 Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-09 10:51:58,928 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 10:51:59,400 WARN  [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists:101 Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-10-09 10:51:59,664 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-10-09 10:51:59,686 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-1234"]
+2023-10-09 10:51:59,757 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 1234 (http) with context path ''
+2023-10-09 10:51:59,773 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started EfilingBazaarProjectApplication in 9.152 seconds (process running for 9.93)
+2023-10-09 10:54:14,333 INFO  [http-nio-1234-exec-1] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 10:54:14,335 INFO  [http-nio-1234-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-10-09 10:54:14,336 INFO  [http-nio-1234-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 0 ms
+2023-10-09 10:58:15,820 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m13s696ms399µs).
+2023-10-09 10:59:29,929 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s109ms233µs200ns).
+2023-10-09 11:02:09,169 INFO  [http-nio-1234-exec-9] com.example.efilingbazaar.controller.MainServiceController.createMainService:62 Main Service created successfully with Id: MS036
+2023-10-09 11:14:07,648 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 11:14:07,652 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-10-09 11:14:07,658 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2023-10-09 11:14:13,167 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting EfilingBazaarProjectApplication using Java 20.0.1 with PID 7076 (D:\Efiling_WS\Anusha\efiling-bazaar\target\classes started by Admin in D:\Efiling_WS\Anusha\efiling-bazaar)
+2023-10-09 11:14:13,170 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:634 No active profile set, falling back to 1 default profile: "default"
+2023-10-09 11:14:13,267 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09 11:14:13,267 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09 11:14:14,166 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 11:14:14,167 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09 11:14:14,301 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 120 ms. Found 9 JPA repository interfaces.
+2023-10-09 11:14:14,662 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 11:14:14,663 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-09 11:14:14,691 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 11:14:14,692 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.CustomerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 11:14:14,693 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.EmployeeRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 11:14:14,694 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 11:14:14,695 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LogRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 11:14:14,695 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.MainServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 11:14:14,696 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.OtpRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 11:14:14,697 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.RoleRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 11:14:14,697 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.SubServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 11:14:14,697 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 34 ms. Found 0 JDBC repository interfaces.
+2023-10-09 11:14:15,714 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 1234 (http)
+2023-10-09 11:14:15,733 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-1234"]
+2023-10-09 11:14:15,738 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-10-09 11:14:15,739 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-09 11:14:15,850 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-10-09 11:14:15,853 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2584 ms
+2023-10-09 11:14:15,968 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-10-09 11:14:16,195 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75d3dd94
+2023-10-09 11:14:16,198 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-10-09 11:14:16,208 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/efilingbazaar'
+2023-10-09 11:14:16,432 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 11:14:16,508 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-10-09 11:14:16,511 INFO  [restartedMain] org.hibernate.cfg.Environment.<clinit>:191 HHH000406: Using bytecode reflection optimizer
+2023-10-09 11:14:16,700 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 11:14:16,837 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87 No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09 11:14:16,874 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:100 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-09 11:14:17,174 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 11:14:17,987 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 11:14:18,265 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 11:14:19,567 INFO  [restartedMain] org.springframework.data.jpa.repository.query.QueryEnhancerFactory.<clinit>:47 Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-09 11:14:20,730 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 11:14:21,183 WARN  [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists:101 Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-10-09 11:14:21,500 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-10-09 11:14:21,524 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-1234"]
+2023-10-09 11:14:21,584 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 1234 (http) with context path ''
+2023-10-09 11:14:21,609 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started EfilingBazaarProjectApplication in 9.139 seconds (process running for 9.883)
+2023-10-09 11:16:21,157 INFO  [http-nio-1234-exec-1] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 11:16:21,157 INFO  [http-nio-1234-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-10-09 11:16:21,157 INFO  [http-nio-1234-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 0 ms
+2023-10-09 11:16:21,389 ERROR [http-nio-1234-exec-1] org.apache.juli.logging.DirectJDKLog.log:175 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded] with root cause
+org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field files exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2800)
+	at org.apache.catalina.connector.Request.getParts(Request.java:2701)
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:774)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:93)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:86)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:112)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1219)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1053)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-10-09 11:16:36,626 ERROR [http-nio-1234-exec-4] org.apache.juli.logging.DirectJDKLog.log:175 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded] with root cause
+org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field files exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2800)
+	at org.apache.catalina.connector.Request.getParts(Request.java:2701)
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:774)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:93)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:86)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:112)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1219)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1053)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-10-09 11:17:07,301 INFO  [http-nio-1234-exec-6] com.example.efilingbazaar.controller.MainServiceController.createMainService:62 Main Service created successfully with Id: MS037
+2023-10-09 11:19:34,476 ERROR [http-nio-1234-exec-10] org.apache.juli.logging.DirectJDKLog.log:175 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded] with root cause
+org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field files exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2800)
+	at org.apache.catalina.connector.Request.getParts(Request.java:2701)
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:774)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:93)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:86)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:112)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1219)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1053)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-10-09 11:19:55,045 INFO  [http-nio-1234-exec-1] com.example.efilingbazaar.controller.MainServiceController.updateMainService:124 The mainservice with the given id is updated : MS037  
+2023-10-09 11:22:58,314 INFO  [http-nio-1234-exec-6] com.example.efilingbazaar.controller.MainServiceController.updateMainService:124 The mainservice with the given id is updated : MS037  
+2023-10-09 11:25:40,067 ERROR [http-nio-1234-exec-9] org.apache.juli.logging.DirectJDKLog.log:175 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded] with root cause
+org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field files exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2800)
+	at org.apache.catalina.connector.Request.getParts(Request.java:2701)
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:774)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:93)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:86)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:112)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1219)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1053)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-10-09 11:26:05,074 ERROR [http-nio-1234-exec-1] org.apache.juli.logging.DirectJDKLog.log:175 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded] with root cause
+org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field files exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2800)
+	at org.apache.catalina.connector.Request.getParts(Request.java:2701)
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:774)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:93)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:86)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:112)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1219)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1053)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-10-09 11:27:45,078 INFO  [http-nio-1234-exec-4] com.example.efilingbazaar.controller.MainServiceController.updateMainService:124 The mainservice with the given id is updated : MS037  
+2023-10-09 11:57:46,752 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m48s986ms436µs600ns).
+2023-10-09 12:09:31,205 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 12:09:31,209 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-10-09 12:09:31,217 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2023-10-09 12:09:37,080 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting EfilingBazaarProjectApplication using Java 20.0.1 with PID 1612 (D:\Efiling_WS\Anusha\efiling-bazaar\target\classes started by Admin in D:\Efiling_WS\Anusha\efiling-bazaar)
+2023-10-09 12:09:37,085 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:634 No active profile set, falling back to 1 default profile: "default"
+2023-10-09 12:09:37,174 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09 12:09:37,174 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09 12:09:38,085 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 12:09:38,085 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09 12:09:38,190 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 100 ms. Found 9 JPA repository interfaces.
+2023-10-09 12:09:38,473 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 12:09:38,473 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-09 12:09:38,500 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:09:38,501 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.CustomerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:09:38,501 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.EmployeeRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:09:38,501 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:09:38,502 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LogRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:09:38,502 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.MainServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:09:38,503 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.OtpRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:09:38,503 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.RoleRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:09:38,503 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.SubServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:09:38,503 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 28 ms. Found 0 JDBC repository interfaces.
+2023-10-09 12:09:39,487 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 1234 (http)
+2023-10-09 12:09:39,499 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:09:39,504 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-10-09 12:09:39,504 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-09 12:09:39,573 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-10-09 12:09:39,575 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2399 ms
+2023-10-09 12:09:39,622 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-10-09 12:09:39,782 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75d3dd94
+2023-10-09 12:09:39,785 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-10-09 12:09:39,792 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/efilingbazaar'
+2023-10-09 12:09:40,055 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 12:09:40,152 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-10-09 12:09:40,154 INFO  [restartedMain] org.hibernate.cfg.Environment.<clinit>:191 HHH000406: Using bytecode reflection optimizer
+2023-10-09 12:09:40,369 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 12:09:40,506 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87 No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09 12:09:40,544 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:100 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-09 12:09:40,932 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 12:09:41,711 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 12:09:41,952 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 12:09:43,680 INFO  [restartedMain] org.springframework.data.jpa.repository.query.QueryEnhancerFactory.<clinit>:47 Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-09 12:09:47,531 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 12:09:48,886 WARN  [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists:101 Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-10-09 12:09:49,894 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-10-09 12:09:49,946 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:09:50,038 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 1234 (http) with context path ''
+2023-10-09 12:09:50,079 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started EfilingBazaarProjectApplication in 13.748 seconds (process running for 14.513)
+2023-10-09 12:09:58,118 INFO  [http-nio-1234-exec-2] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 12:09:58,118 INFO  [http-nio-1234-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-10-09 12:09:58,118 INFO  [http-nio-1234-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 0 ms
+2023-10-09 12:10:18,470 INFO  [http-nio-1234-exec-2] com.example.efilingbazaar.controller.MainServiceController.updateMainService:124 The mainservice with the given id is updated : MS037  
+2023-10-09 12:24:04,432 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 12:24:04,438 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-10-09 12:24:04,450 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2023-10-09 12:24:08,559 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting EfilingBazaarProjectApplication using Java 20.0.1 with PID 13112 (D:\Efiling_WS\Anusha\efiling-bazaar\target\classes started by Admin in D:\Efiling_WS\Anusha\efiling-bazaar)
+2023-10-09 12:24:08,566 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:634 No active profile set, falling back to 1 default profile: "default"
+2023-10-09 12:24:08,695 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09 12:24:08,695 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09 12:24:09,644 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 12:24:09,645 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09 12:24:09,765 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 106 ms. Found 9 JPA repository interfaces.
+2023-10-09 12:24:10,068 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 12:24:10,068 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-09 12:24:10,095 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:24:10,096 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.CustomerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:24:10,096 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.EmployeeRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:24:10,097 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:24:10,097 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LogRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:24:10,097 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.MainServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:24:10,098 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.OtpRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:24:10,098 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.RoleRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:24:10,098 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.SubServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:24:10,099 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 30 ms. Found 0 JDBC repository interfaces.
+2023-10-09 12:24:11,466 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 1234 (http)
+2023-10-09 12:24:11,479 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:24:11,483 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-10-09 12:24:11,484 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-09 12:24:11,590 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-10-09 12:24:11,593 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2894 ms
+2023-10-09 12:24:11,657 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-10-09 12:24:11,899 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22d81ce2
+2023-10-09 12:24:11,902 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-10-09 12:24:11,914 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/efilingbazaar'
+2023-10-09 12:24:12,171 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 12:24:12,244 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-10-09 12:24:12,247 INFO  [restartedMain] org.hibernate.cfg.Environment.<clinit>:191 HHH000406: Using bytecode reflection optimizer
+2023-10-09 12:24:12,419 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 12:24:12,585 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87 No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09 12:24:12,630 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:100 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-09 12:24:12,943 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 12:24:14,160 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 12:24:14,493 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 12:24:16,459 INFO  [restartedMain] org.springframework.data.jpa.repository.query.QueryEnhancerFactory.<clinit>:47 Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-09 12:24:18,736 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 12:24:19,791 WARN  [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists:101 Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-10-09 12:24:20,630 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-10-09 12:24:20,681 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:24:20,777 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 1234 (http) with context path ''
+2023-10-09 12:24:20,820 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started EfilingBazaarProjectApplication in 13.363 seconds (process running for 14.464)
+2023-10-09 12:25:05,183 INFO  [http-nio-1234-exec-1] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 12:25:05,186 INFO  [http-nio-1234-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-10-09 12:25:05,187 INFO  [http-nio-1234-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 1 ms
+2023-10-09 12:31:58,030 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m9s790ms884µs100ns).
+2023-10-09 12:37:14,451 ERROR [http-nio-1234-exec-9] org.apache.juli.logging.DirectJDKLog.log:175 Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded] with root cause
+org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field files exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2800)
+	at org.apache.catalina.connector.Request.getParts(Request.java:2701)
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:774)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:93)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:86)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:112)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1219)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1053)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2023-10-09 12:43:42,886 INFO  [http-nio-1234-exec-6] com.example.efilingbazaar.controller.MainServiceController.createMainService:62 Main Service created successfully with Id: MS038
+2023-10-09 12:47:39,306 INFO  [http-nio-1234-exec-4] com.example.efilingbazaar.controller.SubServiceController.createSubService:60 Sub Service created successfully with Id SS011 : 
+2023-10-09 12:53:26,681 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m33s44ms228µs500ns).
+2023-10-09 12:56:14,637 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent:211 Restarting due to 65 class path changes (0 additions, 64 deletions, 1 modification)
+2023-10-09 12:56:14,669 INFO  [Thread-5] org.apache.juli.logging.DirectJDKLog.log:173 Pausing ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:56:14,670 INFO  [Thread-5] org.apache.juli.logging.DirectJDKLog.log:173 Stopping service [Tomcat]
+2023-10-09 12:56:14,673 INFO  [Thread-5] org.apache.juli.logging.DirectJDKLog.log:173 Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-09 12:56:14,677 INFO  [Thread-5] org.apache.juli.logging.DirectJDKLog.log:173 Stopping ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:56:14,683 INFO  [Thread-5] org.apache.juli.logging.DirectJDKLog.log:173 Destroying ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:56:14,686 INFO  [Thread-5] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 12:56:14,693 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-10-09 12:56:14,700 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2023-10-09 12:56:14,951 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting EfilingBazaarProjectApplication using Java 20.0.1 with PID 13112 (D:\Efiling_WS\Anusha\efiling-bazaar\target\classes started by Admin in D:\Efiling_WS\Anusha\efiling-bazaar)
+2023-10-09 12:56:14,952 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:634 No active profile set, falling back to 1 default profile: "default"
+2023-10-09 12:56:15,617 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 12:56:15,618 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09 12:56:15,620 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2023-10-09 12:56:15,901 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 12:56:15,902 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-09 12:56:15,903 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
+2023-10-09 12:56:16,044 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 1234 (http)
+2023-10-09 12:56:16,051 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:56:16,052 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-10-09 12:56:16,052 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-09 12:56:16,297 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-10-09 12:56:16,297 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 1323 ms
+2023-10-09 12:56:16,497 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-2 - Starting...
+2023-10-09 12:56:16,555 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e1651e2
+2023-10-09 12:56:16,556 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-2 - Start completed.
+2023-10-09 12:56:16,556 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/efilingbazaar'
+2023-10-09 12:56:16,671 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 12:56:16,690 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 12:56:16,692 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87 No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09 12:56:16,696 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:100 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-09 12:56:16,702 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 12:56:16,723 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 12:56:16,724 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 12:56:16,758 WARN  [restartedMain] org.springframework.context.support.AbstractApplicationContext.refresh:616 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configure' defined in com.example.efilingbazaar.EfilingBazaarProjectApplication: Failed to instantiate [org.springframework.web.servlet.config.annotation.WebMvcConfigurer]: Factory method 'configure' threw exception with message: com/example/efilingbazaar/EfilingBazaarProjectApplication$1
+2023-10-09 12:56:16,759 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 12:56:16,768 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-2 - Shutdown initiated...
+2023-10-09 12:56:16,785 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-2 - Shutdown completed.
+2023-10-09 12:56:16,786 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Stopping service [Tomcat]
+2023-10-09 12:56:16,802 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger.logMessage:82 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09 12:56:16,868 ERROR [restartedMain] org.springframework.boot.SpringApplication.reportFailure:824 Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configure' defined in com.example.efilingbazaar.EfilingBazaarProjectApplication: Failed to instantiate [org.springframework.web.servlet.config.annotation.WebMvcConfigurer]: Factory method 'configure' threw exception with message: com/example/efilingbazaar/EfilingBazaarProjectApplication$1
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.efilingbazaar.EfilingBazaarProjectApplication.main(EfilingBazaarProjectApplication.java:18)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.config.annotation.WebMvcConfigurer]: Factory method 'configure' threw exception with message: com/example/efilingbazaar/EfilingBazaarProjectApplication$1
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/example/efilingbazaar/EfilingBazaarProjectApplication$1
+	at com.example.efilingbazaar.EfilingBazaarProjectApplication.configure(EfilingBazaarProjectApplication.java:22)
+	at com.example.efilingbazaar.EfilingBazaarProjectApplication$$SpringCGLIB$$0.CGLIB$configure$0(<generated>)
+	at com.example.efilingbazaar.EfilingBazaarProjectApplication$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.example.efilingbazaar.EfilingBazaarProjectApplication$$SpringCGLIB$$0.configure(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.example.efilingbazaar.EfilingBazaarProjectApplication$1
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 32 common frames omitted
+2023-10-09 12:56:22,303 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting EfilingBazaarProjectApplication using Java 20.0.1 with PID 13112 (D:\Efiling_WS\Anusha\efiling-bazaar\target\classes started by Admin in D:\Efiling_WS\Anusha\efiling-bazaar)
+2023-10-09 12:56:22,304 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:634 No active profile set, falling back to 1 default profile: "default"
+2023-10-09 12:56:22,821 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 12:56:22,829 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09 12:56:22,920 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 85 ms. Found 9 JPA repository interfaces.
+2023-10-09 12:56:23,066 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 12:56:23,066 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-09 12:56:23,072 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:23,073 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.CustomerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:23,073 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.EmployeeRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:23,073 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:23,073 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LogRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:23,074 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.MainServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:23,074 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.OtpRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:23,074 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.RoleRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:23,074 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.SubServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:23,074 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-10-09 12:56:23,261 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 1234 (http)
+2023-10-09 12:56:23,263 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:56:23,263 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-10-09 12:56:23,265 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-09 12:56:23,300 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-10-09 12:56:23,301 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 992 ms
+2023-10-09 12:56:23,314 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-3 - Starting...
+2023-10-09 12:56:23,319 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18dd6496
+2023-10-09 12:56:23,320 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-3 - Start completed.
+2023-10-09 12:56:23,320 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/efilingbazaar'
+2023-10-09 12:56:23,351 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 12:56:23,359 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 12:56:23,359 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87 No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09 12:56:23,361 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:100 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-09 12:56:23,462 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 12:56:23,729 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 12:56:23,993 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 12:56:25,018 WARN  [restartedMain] org.springframework.context.support.AbstractApplicationContext.refresh:616 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configure' defined in com.example.efilingbazaar.EfilingBazaarProjectApplication: Failed to instantiate [org.springframework.web.servlet.config.annotation.WebMvcConfigurer]: Illegal arguments to factory method 'configure'; args: 
+2023-10-09 12:56:25,019 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 12:56:25,019 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-3 - Shutdown initiated...
+2023-10-09 12:56:25,026 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-3 - Shutdown completed.
+2023-10-09 12:56:25,027 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Stopping service [Tomcat]
+2023-10-09 12:56:25,035 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger.logMessage:82 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09 12:56:25,042 ERROR [restartedMain] org.springframework.boot.SpringApplication.reportFailure:824 Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configure' defined in com.example.efilingbazaar.EfilingBazaarProjectApplication: Failed to instantiate [org.springframework.web.servlet.config.annotation.WebMvcConfigurer]: Illegal arguments to factory method 'configure'; args: 
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.efilingbazaar.EfilingBazaarProjectApplication.main(EfilingBazaarProjectApplication.java:18)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.config.annotation.WebMvcConfigurer]: Illegal arguments to factory method 'configure'; args: 
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:157)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 22 common frames omitted
+Caused by: java.lang.IllegalArgumentException: object is not an instance of declaring class
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.checkReceiver(DirectMethodHandleAccessor.java:202)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:100)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 23 common frames omitted
+2023-10-09 12:56:47,938 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting EfilingBazaarProjectApplication using Java 20.0.1 with PID 11384 (D:\Efiling_WS\Anusha\efiling-bazaar\target\classes started by Admin in D:\Efiling_WS\Anusha\efiling-bazaar)
+2023-10-09 12:56:47,941 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:634 No active profile set, falling back to 1 default profile: "default"
+2023-10-09 12:56:48,063 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09 12:56:48,065 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09 12:56:49,010 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 12:56:49,010 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09 12:56:49,099 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 80 ms. Found 9 JPA repository interfaces.
+2023-10-09 12:56:49,411 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:291 Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-09 12:56:49,412 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-09 12:56:49,448 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:49,450 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.CustomerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:49,452 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.EmployeeRegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:49,454 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:49,455 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.LogRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:49,455 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.MainServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:49,456 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.OtpRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:49,457 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.RoleRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:49,457 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.efilingbazaar.repository.SubServiceRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-10-09 12:56:49,458 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 45 ms. Found 0 JDBC repository interfaces.
+2023-10-09 12:56:50,564 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 1234 (http)
+2023-10-09 12:56:50,575 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:56:50,579 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2023-10-09 12:56:50,580 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-10-09 12:56:50,708 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2023-10-09 12:56:50,710 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2640 ms
+2023-10-09 12:56:50,858 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2023-10-09 12:56:51,132 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@415a44ec
+2023-10-09 12:56:51,137 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2023-10-09 12:56:51,155 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/efilingbazaar'
+2023-10-09 12:56:51,441 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 12:56:51,507 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-10-09 12:56:51,510 INFO  [restartedMain] org.hibernate.cfg.Environment.<clinit>:191 HHH000406: Using bytecode reflection optimizer
+2023-10-09 12:56:51,744 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 12:56:51,915 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87 No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-09 12:56:51,977 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:100 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-09 12:56:52,239 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator.buildBytecodeProvider:53 HHH000021: Bytecode provider name : bytebuddy
+2023-10-09 12:56:53,020 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 12:56:53,380 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 12:56:54,215 INFO  [restartedMain] org.springframework.data.jpa.repository.query.QueryEnhancerFactory.<clinit>:47 Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-09 12:56:55,215 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:231 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 12:56:55,574 WARN  [restartedMain] org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists:101 Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-10-09 12:56:55,796 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2023-10-09 12:56:55,812 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-1234"]
+2023-10-09 12:56:55,837 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 1234 (http) with context path ''
+2023-10-09 12:56:55,860 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started EfilingBazaarProjectApplication in 8.652 seconds (process running for 9.303)
+2023-10-09 12:57:11,605 INFO  [http-nio-1234-exec-2] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 12:57:11,605 INFO  [http-nio-1234-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2023-10-09 12:57:11,605 INFO  [http-nio-1234-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 0 ms
+2023-10-09 14:15:36,619 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m14s760ms913µs600ns).
+2023-10-09 16:02:46,441 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m8s518ms944µs400ns).
+2023-10-09 18:31:36,618 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m18s663ms645µs300ns).
+2023-10-09 19:00:03,917 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m26s949ms236µs500ns).
+2023-10-09 19:05:36,940 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-09 19:05:36,958 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2023-10-09 19:05:36,962 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.

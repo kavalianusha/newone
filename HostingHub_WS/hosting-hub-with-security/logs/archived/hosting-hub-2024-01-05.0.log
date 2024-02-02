@@ -1,0 +1,479 @@
+2024-01-05 10:08:27,154 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h49m47s399ms216µs700ns).
+2024-01-05 10:19:38,338 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m40s830ms457µs400ns).
+2024-01-05 10:35:06,225 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m57s698ms900µs300ns).
+2024-01-05 10:53:50,121 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m43s738ms178µs800ns).
+2024-01-05 11:06:48,717 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m28s404ms280µs900ns).
+2024-01-05 11:26:31,465 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m21s464ms879µs200ns).
+2024-01-05 12:17:09,169 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m37s271ms470µs700ns).
+2024-01-05 14:05:37,676 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m51s711ms412µs400ns).
+2024-01-05 14:10:49,163 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-05 14:10:49,185 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2024-01-05 14:10:49,195 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2024-01-05 14:10:53,821 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplication using Java 20.0.1 with PID 21004 (D:\HostingHub_WS\hosting-hub-with-security\target\classes started by Admin in D:\HostingHub_WS\hosting-hub-with-security)
+2024-01-05 14:10:53,823 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-05 14:10:53,915 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-05 14:10:53,915 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-05 14:10:55,428 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-05 14:10:55,430 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-01-05 14:10:55,481 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:10:55,484 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.DomainRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:10:55,487 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.EmailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:10:55,489 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.HostDomainMapRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:10:55,492 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.HostingRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:10:55,494 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.ItReturnsRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:10:55,496 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.PasswordRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:10:55,497 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 61 ms. Found 0 JDBC repository interfaces.
+2024-01-05 14:10:55,511 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-05 14:10:55,513 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-05 14:10:55,579 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 61 ms. Found 7 JPA repository interfaces.
+2024-01-05 14:10:56,723 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 8090 (http)
+2024-01-05 14:10:56,736 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-8090"]
+2024-01-05 14:10:56,737 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2024-01-05 14:10:56,738 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-01-05 14:10:56,820 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2024-01-05 14:10:56,822 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2904 ms
+2024-01-05 14:10:56,861 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2024-01-05 14:10:57,001 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7930b7d1
+2024-01-05 14:10:57,003 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2024-01-05 14:10:57,012 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/hostinghub'
+2024-01-05 14:10:57,249 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-05 14:10:57,318 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-01-05 14:10:57,492 WARN  [restartedMain] org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-01-05 14:10:57,633 INFO  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:66 HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-01-05 14:10:57,634 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:73 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-01-05 14:10:58,633 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-05 14:10:58,639 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-05 14:10:59,625 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:227 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-05 14:11:00,179 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2024-01-05 14:11:00,197 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-8090"]
+2024-01-05 14:11:00,220 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 8090 (http) with context path ''
+2024-01-05 14:11:00,235 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplication in 7.113 seconds (process running for 7.826)
+2024-01-05 14:33:49,912 INFO  [http-nio-8090-exec-1] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-05 14:33:49,914 INFO  [http-nio-8090-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2024-01-05 14:33:49,918 INFO  [http-nio-8090-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 4 ms
+2024-01-05 14:33:49,930 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 14:33:49,931 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 14:33:49,932 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 14:33:49,932 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 14:33:49,933 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 14:33:51,445 INFO  [http-nio-8090-exec-1] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=299234, refreshToken=null)
+2024-01-05 14:39:13,007 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 14:39:13,007 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 14:39:13,007 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 14:39:13,007 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 14:39:13,007 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 14:39:13,024 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=299234, refreshToken=null)
+2024-01-05 14:39:23,306 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 14:39:23,306 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 14:39:23,313 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 14:39:23,313 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 14:39:23,313 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 14:39:23,321 INFO  [http-nio-8090-exec-4] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=299234, refreshToken=null)
+2024-01-05 14:41:28,595 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 14:41:28,595 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 14:41:28,595 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 14:41:28,595 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 14:41:28,596 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 14:41:28,601 INFO  [http-nio-8090-exec-6] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=299234, refreshToken=null)
+2024-01-05 14:56:46,141 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-05 14:56:46,147 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2024-01-05 14:56:46,151 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2024-01-05 14:56:56,891 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplication using Java 20.0.1 with PID 5024 (D:\HostingHub_WS\hosting-hub-with-security\target\classes started by Admin in D:\HostingHub_WS\hosting-hub-with-security)
+2024-01-05 14:56:56,894 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-05 14:56:56,978 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-05 14:56:56,979 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-05 14:56:58,117 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-05 14:56:58,119 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-01-05 14:56:58,167 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:56:58,170 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.DomainRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:56:58,173 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.EmailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:56:58,175 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.HostDomainMapRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:56:58,177 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.HostingRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:56:58,180 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.ItReturnsRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:56:58,184 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.PasswordRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-05 14:56:58,186 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 60 ms. Found 0 JDBC repository interfaces.
+2024-01-05 14:56:58,205 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-05 14:56:58,207 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-05 14:56:58,276 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 64 ms. Found 7 JPA repository interfaces.
+2024-01-05 14:56:59,322 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 8090 (http)
+2024-01-05 14:56:59,340 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-8090"]
+2024-01-05 14:56:59,342 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2024-01-05 14:56:59,342 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-01-05 14:56:59,417 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2024-01-05 14:56:59,420 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2438 ms
+2024-01-05 14:56:59,475 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2024-01-05 14:56:59,679 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65768602
+2024-01-05 14:56:59,681 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2024-01-05 14:56:59,700 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/hostinghub'
+2024-01-05 14:56:59,971 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-05 14:57:00,103 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-01-05 14:57:00,291 WARN  [restartedMain] org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-01-05 14:57:00,439 INFO  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:66 HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-01-05 14:57:00,439 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:73 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-01-05 14:57:01,545 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-05 14:57:01,558 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-05 14:57:02,643 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:227 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-05 14:57:03,168 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2024-01-05 14:57:03,183 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-8090"]
+2024-01-05 14:57:03,220 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 8090 (http) with context path ''
+2024-01-05 14:57:03,235 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplication in 7.112 seconds (process running for 8.955)
+2024-01-05 15:00:20,859 INFO  [http-nio-8090-exec-1] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-05 15:00:20,859 INFO  [http-nio-8090-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2024-01-05 15:00:20,861 INFO  [http-nio-8090-exec-1] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 1 ms
+2024-01-05 15:00:20,865 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 15:00:20,865 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 15:00:20,865 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 15:00:20,866 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 15:00:20,866 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 15:00:21,053 INFO  [http-nio-8090-exec-1] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=299234, refreshToken=null)
+2024-01-05 15:07:32,136 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 15:07:32,136 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 15:07:32,136 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 15:07:32,136 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 15:07:32,136 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 15:07:32,143 INFO  [http-nio-8090-exec-4] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=299234, refreshToken=null)
+2024-01-05 15:09:55,641 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 15:09:55,642 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 15:09:55,642 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 15:09:55,642 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 15:09:55,642 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 15:09:55,653 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=299234, refreshToken=null)
+2024-01-05 16:20:27,548 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s651ms427µs200ns).
+2024-01-05 16:32:13,886 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m16s278ms686µs200ns).
+2024-01-05 17:04:55,281 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:04:55,281 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:04:55,289 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:04:55,289 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 17:04:55,289 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 17:04:55,314 INFO  [http-nio-8090-exec-7] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=299234, refreshToken=null)
+2024-01-05 17:13:39,595 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:13:39,595 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:13:39,595 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:13:39,595 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 17:13:39,595 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 17:40:44,070 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m57s592ms415µs900ns).
+2024-01-05 17:41:52,649 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:41:52,649 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:41:52,649 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:41:52,649 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 17:41:52,649 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 17:41:59,450 INFO  [http-nio-8090-exec-4] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 17:41:59,636 INFO  [http-nio-8090-exec-4] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 17:42:25,831 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:42:25,832 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:42:25,832 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:42:25,832 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 17:42:25,832 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 17:42:25,839 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=909296, refreshToken=null)
+2024-01-05 17:42:59,462 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:42:59,462 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:42:59,462 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:42:59,462 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 17:42:59,462 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 17:42:59,467 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=null, refreshToken=null)
+2024-01-05 17:44:00,811 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:44:00,813 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:44:00,813 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:44:00,813 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 17:44:00,813 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 17:44:05,315 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 17:44:05,323 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 17:44:37,529 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:44:37,529 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:44:37,529 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:44:37,529 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 17:44:37,529 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 17:44:37,529 INFO  [http-nio-8090-exec-9] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=321218, refreshToken=null)
+2024-01-05 17:52:38,516 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:52:38,524 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:52:38,524 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:52:38,524 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 17:52:38,524 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 17:52:42,479 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 17:52:42,552 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 17:53:39,760 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:53:39,760 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:53:39,760 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:53:39,760 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 17:53:39,760 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 17:53:39,764 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=130922, refreshToken=null)
+2024-01-05 17:58:22,425 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:58:22,425 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:58:22,425 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:58:22,425 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 17:58:22,425 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 17:58:26,682 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 17:58:26,755 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 17:59:09,779 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 17:59:09,779 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 17:59:09,779 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 17:59:09,779 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 17:59:09,780 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 17:59:09,786 INFO  [http-nio-8090-exec-9] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=593257, refreshToken=null)
+2024-01-05 18:02:21,061 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:02:21,063 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:02:21,063 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:02:21,063 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:02:21,063 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:02:25,472 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:02:25,547 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:02:58,042 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:02:58,043 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:02:58,043 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:02:58,043 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:02:58,043 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:02:58,046 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=681575, refreshToken=null)
+2024-01-05 18:06:34,065 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:06:34,065 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:06:34,065 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:06:34,065 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:06:34,065 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:06:38,171 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:06:38,244 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:07:15,427 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:07:15,429 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:07:15,429 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:07:15,429 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:07:15,429 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:07:15,432 INFO  [http-nio-8090-exec-9] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=114937, refreshToken=null)
+2024-01-05 18:22:53,877 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:22:53,877 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:22:53,877 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:22:53,877 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:22:53,877 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:22:58,584 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:22:58,592 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:23:19,711 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:23:19,711 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:23:19,711 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:23:19,711 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:23:19,711 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:23:19,719 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=783236, refreshToken=null)
+2024-01-05 18:26:40,540 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:26:40,540 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:26:40,540 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:26:40,540 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:26:40,540 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:26:45,093 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:26:45,159 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:27:07,820 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:27:07,820 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:27:07,829 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:27:07,829 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:27:07,829 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:27:07,830 INFO  [http-nio-8090-exec-9] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=569474, refreshToken=null)
+2024-01-05 18:29:37,563 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:29:37,570 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:29:37,570 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:29:37,570 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:29:37,570 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:29:42,038 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:29:42,112 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:30:48,107 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:30:48,112 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:30:48,112 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:30:48,112 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:30:48,112 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:30:48,123 INFO  [http-nio-8090-exec-6] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=859769, refreshToken=null)
+2024-01-05 18:33:50,617 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:33:50,617 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:33:50,617 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:33:50,617 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:33:50,617 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:33:54,230 INFO  [http-nio-8090-exec-10] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:33:54,237 INFO  [http-nio-8090-exec-10] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:34:14,520 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:34:14,520 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:34:14,520 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:34:14,520 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:34:14,520 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:34:14,529 INFO  [http-nio-8090-exec-9] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=100916, refreshToken=null)
+2024-01-05 18:35:32,443 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:35:32,443 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:35:32,444 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:35:32,444 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:35:32,444 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:35:32,451 INFO  [http-nio-8090-exec-4] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=null, refreshToken=null)
+2024-01-05 18:35:56,158 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:35:56,159 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:35:56,159 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:35:56,159 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:35:56,159 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:35:59,917 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:35:59,928 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:36:29,332 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:36:29,332 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:36:29,332 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:36:29,332 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:36:29,333 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:36:29,337 INFO  [http-nio-8090-exec-6] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=623165, refreshToken=null)
+2024-01-05 18:41:00,602 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:41:00,603 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:41:00,603 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:41:00,603 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:41:00,603 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:41:04,507 INFO  [http-nio-8090-exec-10] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:41:04,512 INFO  [http-nio-8090-exec-10] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:41:24,163 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:41:24,163 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:41:24,163 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:41:24,163 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:41:24,163 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:41:24,174 INFO  [http-nio-8090-exec-1] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=670210, refreshToken=null)
+2024-01-05 18:44:06,891 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:44:06,891 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:44:06,891 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:44:06,891 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:44:06,891 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:44:46,807 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:44:46,807 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:44:46,807 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:44:46,807 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:44:46,807 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:44:49,092 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:44:49,092 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:44:49,092 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:44:49,093 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:44:49,093 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:45:54,651 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:45:54,652 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:45:54,652 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:45:54,652 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:45:54,652 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:45:56,559 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:45:56,559 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:45:56,559 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:45:56,559 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:45:56,559 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:46:36,296 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:46:36,296 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:46:36,296 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:46:36,297 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:46:36,297 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:46:40,112 INFO  [http-nio-8090-exec-2] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:46:40,123 INFO  [http-nio-8090-exec-2] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:47:11,097 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:47:11,098 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:47:11,098 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:47:11,098 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:47:11,098 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:47:11,102 INFO  [http-nio-8090-exec-4] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=978355, refreshToken=null)
+2024-01-05 18:48:48,574 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:48:48,574 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:48:48,574 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:48:48,574 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:48:48,574 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:48:52,326 INFO  [http-nio-8090-exec-7] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:48:52,334 INFO  [http-nio-8090-exec-7] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:49:14,357 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:49:14,357 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:49:14,357 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:49:14,357 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:49:14,357 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:49:14,361 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=956506, refreshToken=null)
+2024-01-05 18:53:15,781 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:53:15,787 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:53:15,787 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:53:15,787 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:53:15,787 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:53:20,276 INFO  [http-nio-8090-exec-2] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:53:20,351 INFO  [http-nio-8090-exec-2] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:53:39,288 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:53:39,288 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:53:39,288 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:53:39,288 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:53:39,288 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:53:39,296 INFO  [http-nio-8090-exec-4] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=659492, refreshToken=null)
+2024-01-05 18:54:17,570 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:54:17,570 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:54:17,570 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:54:17,570 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:54:17,570 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:54:22,334 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:54:22,411 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:54:55,331 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:54:55,332 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:54:55,332 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:54:55,332 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:54:55,332 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:54:55,337 INFO  [http-nio-8090-exec-6] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=790377, refreshToken=null)
+2024-01-05 18:56:40,213 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:56:40,215 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:56:40,215 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:56:40,215 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:56:40,215 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:56:40,219 INFO  [http-nio-8090-exec-9] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=null, refreshToken=null)
+2024-01-05 18:57:02,060 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:57:02,064 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:57:02,064 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:57:02,064 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 18:57:02,064 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 18:57:06,553 INFO  [http-nio-8090-exec-1] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 18:57:06,584 INFO  [http-nio-8090-exec-1] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 18:57:42,832 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 18:57:42,834 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 18:57:42,834 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 18:57:42,834 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 18:57:42,834 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 18:57:42,839 INFO  [http-nio-8090-exec-4] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=702564, refreshToken=null)
+2024-01-05 19:34:26,441 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m10s606ms643µs500ns).
+2024-01-05 19:42:34,398 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 19:42:34,398 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 19:42:34,398 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 19:42:34,398 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 19:42:34,398 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 19:42:34,411 INFO  [http-nio-8090-exec-6] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=null, refreshToken=null)
+2024-01-05 19:42:50,508 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 19:42:50,508 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 19:42:50,508 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 19:42:50,516 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 19:42:50,516 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 19:42:55,158 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 19:42:55,166 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 19:43:47,199 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 19:43:47,199 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 19:43:47,200 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 19:43:47,200 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 19:43:47,200 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 19:43:47,204 INFO  [http-nio-8090-exec-10] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=107918, refreshToken=null)
+2024-01-05 19:45:36,014 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 19:45:36,015 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 19:45:36,015 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 19:45:36,015 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 19:45:36,015 INFO  [http-nio-8090-exec-3] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 19:45:40,823 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 19:45:40,831 INFO  [http-nio-8090-exec-3] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 19:45:58,303 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 19:45:58,303 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 19:45:58,303 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 19:45:58,303 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 19:45:58,303 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 19:45:58,312 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=625208, refreshToken=null)
+2024-01-05 19:54:27,356 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 19:54:27,356 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 19:54:27,356 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 19:54:27,356 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 19:54:27,356 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 19:55:15,210 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 19:55:15,218 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 19:55:15,218 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 19:55:15,218 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-05 19:55:15,218 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-05 19:55:19,719 INFO  [http-nio-8090-exec-10] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:207 OTP sent successfully to: anushak@pathbreakertech.in
+2024-01-05 19:55:19,727 INFO  [http-nio-8090-exec-10] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : null anusha
+2024-01-05 19:55:39,389 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 19:55:39,396 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 19:55:39,396 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 19:55:39,396 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 19:55:39,396 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 19:55:39,405 INFO  [http-nio-8090-exec-1] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=315176, refreshToken=null)
+2024-01-05 19:55:40,546 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-05 19:55:40,546 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-05 19:55:40,546 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-05 19:55:40,546 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/anusha
+2024-01-05 19:55:40,546 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/anusha
+2024-01-05 19:55:40,554 INFO  [http-nio-8090-exec-2] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:292 The size of the admin is: AdminEntity(adminId=AD001, name=allam, userName=anusha, emailId=anushak@pathbreakertech.in, password=anusha, phoneNo=9789876654, role=email, otp=null, refreshToken=null)
+2024-01-05 20:09:21,518 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m54s688ms675µs200ns).
+2024-01-05 20:09:30,708 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-05 20:09:30,740 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2024-01-05 20:09:30,780 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.

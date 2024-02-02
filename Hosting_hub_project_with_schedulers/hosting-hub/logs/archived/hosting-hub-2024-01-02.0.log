@@ -1,0 +1,39 @@
+2024-01-02 11:01:58,846 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 7788 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 11:01:58,851 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 11:01:59,041 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.892 seconds (process running for 2.42)
+2024-01-02 12:47:42,741 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 6944 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 12:47:42,746 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 12:47:42,934 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.694 seconds (process running for 1.843)
+2024-01-02 13:30:23,176 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 14472 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 13:30:23,178 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 13:30:23,379 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.691 seconds (process running for 1.7)
+2024-01-02 13:32:05,564 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 12828 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 13:32:05,567 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 13:32:05,865 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.861 seconds (process running for 2.291)
+2024-01-02 13:37:13,691 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 21592 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 13:37:13,696 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 13:37:13,927 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.756 seconds (process running for 2.05)
+2024-01-02 13:37:35,200 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 4368 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 13:37:35,203 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 13:37:35,420 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.706 seconds (process running for 1.616)
+2024-01-02 14:13:38,737 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 8996 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 14:13:38,740 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 14:13:39,033 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.957 seconds (process running for 2.044)
+2024-01-02 14:14:45,920 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 14400 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 14:14:45,924 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 14:14:46,136 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.706 seconds (process running for 1.815)
+2024-01-02 14:25:17,848 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 21856 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 14:25:17,851 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 14:25:18,085 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.706 seconds (process running for 1.876)
+2024-01-02 14:25:39,154 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 1524 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 14:25:39,156 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 14:25:39,386 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.7 seconds (process running for 1.687)
+2024-01-02 16:26:30,371 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 5708 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 16:26:30,376 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 16:26:30,549 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 1.104 seconds (process running for 2.788)
+2024-01-02 16:29:40,437 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 1128 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 16:29:40,439 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 16:29:40,689 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.921 seconds (process running for 2.249)
+2024-01-02 16:32:26,647 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplicationTests using Java 20.0.1 with PID 4188 (started by Admin in D:\HostingHub_WS\hosting-hub)
+2024-01-02 16:32:26,650 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-02 16:32:26,897 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplicationTests in 0.85 seconds (process running for 1.941)

@@ -1,0 +1,8 @@
+com\pathbreaker\hostinghub\service\AdminServiceTest.class
+com\pathbreaker\hostinghub\service\HostDomainMapServiceTest.class
+com\pathbreaker\hostinghub\service\PasswordsServiceTest.class
+com\pathbreaker\hostinghub\service\EmailServiceTest.class
+com\pathbreaker\hostinghub\service\DomainServiceTest.class
+com\pathbreaker\hostinghub\service\HostingServiceTest.class
+com\pathbreaker\hostinghub\service\ItReturnsServiceTest.class
+com\pathbreaker\hostinghub\HostingHubApplicationTests.class

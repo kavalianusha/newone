@@ -1,0 +1,241 @@
+2024-01-10 16:24:18,860 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplication using Java 20.0.1 with PID 21760 (D:\HostingHub_WS\hosting-hub-with-security\target\classes started by Admin in D:\HostingHub_WS\hosting-hub-with-security)
+2024-01-10 16:24:18,864 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-10 16:24:18,940 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-10 16:24:18,940 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-10 16:24:19,996 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-10 16:24:19,998 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-01-10 16:24:20,047 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:24:20,049 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.DomainRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:24:20,053 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.EmailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:24:20,054 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.HostDomainMapRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:24:20,057 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.HostingRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:24:20,059 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.ItReturnsRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:24:20,066 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.PasswordRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:24:20,067 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 63 ms. Found 0 JDBC repository interfaces.
+2024-01-10 16:24:20,081 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-10 16:24:20,083 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-10 16:24:20,172 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 84 ms. Found 7 JPA repository interfaces.
+2024-01-10 16:24:21,366 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 8090 (http)
+2024-01-10 16:24:21,382 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-8090"]
+2024-01-10 16:24:21,384 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2024-01-10 16:24:21,386 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-01-10 16:24:21,476 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2024-01-10 16:24:21,479 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2535 ms
+2024-01-10 16:24:21,530 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2024-01-10 16:24:21,679 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4afd6e9e
+2024-01-10 16:24:21,680 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2024-01-10 16:24:21,689 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/hostinghub'
+2024-01-10 16:24:22,020 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-10 16:24:22,085 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-01-10 16:24:22,250 WARN  [restartedMain] org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-01-10 16:24:22,365 INFO  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:66 HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-01-10 16:24:22,365 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:73 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-01-10 16:24:23,364 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-10 16:24:23,373 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-10 16:24:24,270 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:227 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-10 16:24:24,750 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2024-01-10 16:24:24,762 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-8090"]
+2024-01-10 16:24:24,782 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 8090 (http) with context path ''
+2024-01-10 16:24:24,799 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplication in 6.624 seconds (process running for 8.012)
+2024-01-10 16:25:02,767 INFO  [http-nio-8090-exec-2] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-10 16:25:02,767 INFO  [http-nio-8090-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2024-01-10 16:25:02,771 INFO  [http-nio-8090-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 4 ms
+2024-01-10 16:25:02,771 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 16:25:02,771 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 16:25:02,771 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 16:25:02,771 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-10 16:25:02,771 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-10 16:26:35,264 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-10 16:26:35,268 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2024-01-10 16:26:35,278 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.
+2024-01-10 16:26:39,363 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting HostingHubApplication using Java 20.0.1 with PID 7700 (D:\HostingHub_WS\hosting-hub-with-security\target\classes started by Admin in D:\HostingHub_WS\hosting-hub-with-security)
+2024-01-10 16:26:39,366 INFO  [restartedMain] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-10 16:26:39,461 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-10 16:26:39,462 INFO  [restartedMain] org.springframework.boot.logging.DeferredLog.logTo:250 For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-10 16:26:40,450 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-10 16:26:40,453 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-01-10 16:26:40,505 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.AdminRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:26:40,509 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.DomainRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:26:40,511 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.EmailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:26:40,513 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.HostDomainMapRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:26:40,517 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.HostingRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:26:40,519 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.ItReturnsRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:26:40,522 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate:320 Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.pathbreaker.hostinghub.repository.PasswordRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-01-10 16:26:40,523 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 65 ms. Found 0 JDBC repository interfaces.
+2024-01-10 16:26:40,539 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:294 Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-10 16:26:40,540 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-10 16:26:40,608 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 63 ms. Found 7 JPA repository interfaces.
+2024-01-10 16:26:41,533 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 8090 (http)
+2024-01-10 16:26:41,546 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-8090"]
+2024-01-10 16:26:41,547 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2024-01-10 16:26:41,548 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-01-10 16:26:41,616 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2024-01-10 16:26:41,618 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 2153 ms
+2024-01-10 16:26:41,663 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2024-01-10 16:26:41,818 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cf1cde8
+2024-01-10 16:26:41,821 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2024-01-10 16:26:41,828 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources:88 H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/hostinghub'
+2024-01-10 16:26:42,109 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-10 16:26:42,180 INFO  [restartedMain] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-01-10 16:26:42,386 WARN  [restartedMain] org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-01-10 16:26:42,554 INFO  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:66 HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-01-10 16:26:42,555 WARN  [restartedMain] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:73 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-01-10 16:26:43,451 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-10 16:26:43,459 INFO  [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-10 16:26:44,409 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:227 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-10 16:26:44,908 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59 LiveReload server is running on port 35729
+2024-01-10 16:26:44,922 INFO  [restartedMain] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-8090"]
+2024-01-10 16:26:44,942 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 8090 (http) with context path ''
+2024-01-10 16:26:44,958 INFO  [restartedMain] org.springframework.boot.StartupInfoLogger.logStarted:57 Started HostingHubApplication in 6.291 seconds (process running for 6.861)
+2024-01-10 16:27:04,280 INFO  [http-nio-8090-exec-2] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-10 16:27:04,280 INFO  [http-nio-8090-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2024-01-10 16:27:04,281 INFO  [http-nio-8090-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 1 ms
+2024-01-10 16:27:04,284 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 16:27:04,285 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 16:27:04,285 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 16:27:04,285 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-10 16:27:04,285 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-10 16:27:08,416 INFO  [http-nio-8090-exec-2] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:209 OTP sent successfully to: vamsip.pbt@gmail.com
+2024-01-10 16:27:08,469 INFO  [http-nio-8090-exec-2] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : vamsip.pbt@gmail.com null
+2024-01-10 16:29:07,101 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 16:29:07,102 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 16:29:07,102 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 16:29:07,102 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/vamsi
+2024-01-10 16:29:07,102 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/vamsi
+2024-01-10 16:29:07,118 INFO  [http-nio-8090-exec-4] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:294 The size of the admin is: AdminEntity(adminId=AD002, name=vamsi, userName=vamsi, emailId=vamsip.pbt@gmail.com, password=vamsi, phoneNo=9878909878, role=email, otp=458089, refreshToken=null)
+2024-01-10 16:29:07,496 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 16:29:07,496 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 16:29:07,496 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 16:29:07,497 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/vamsi
+2024-01-10 16:29:07,497 INFO  [http-nio-8090-exec-5] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/vamsi
+2024-01-10 16:29:07,502 INFO  [http-nio-8090-exec-5] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:294 The size of the admin is: AdminEntity(adminId=AD002, name=vamsi, userName=vamsi, emailId=vamsip.pbt@gmail.com, password=vamsi, phoneNo=9878909878, role=email, otp=null, refreshToken=null)
+2024-01-10 16:29:42,419 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 16:29:42,420 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 16:29:42,420 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 16:29:42,420 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/all
+2024-01-10 16:29:42,420 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/all
+2024-01-10 16:29:46,745 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 16:29:46,746 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 16:29:46,746 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 16:29:46,746 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/all
+2024-01-10 16:29:46,746 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/all
+2024-01-10 16:29:58,950 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 16:29:58,950 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 16:29:58,951 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 16:29:58,951 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/all
+2024-01-10 16:29:58,951 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/all
+2024-01-10 16:29:58,973 INFO  [http-nio-8090-exec-9] com.pathbreaker.hostinghub.service.AdminService.getAllAdmins:227 The size of the admin list is: 2
+2024-01-10 16:30:42,552 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 16:30:42,553 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 16:30:42,553 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 16:30:42,553 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/AD002
+2024-01-10 16:30:42,553 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/AD002
+2024-01-10 16:30:51,445 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 16:30:51,445 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 16:30:51,445 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 16:30:51,445 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/AD002
+2024-01-10 16:30:51,445 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/AD002
+2024-01-10 16:30:51,464 INFO  [http-nio-8090-exec-2] com.pathbreaker.hostinghub.service.AdminService.getAdminById:244 The size of the admin is: true
+2024-01-10 17:00:06,106 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m23s819ms449µs900ns).
+2024-01-10 17:08:25,675 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:08:25,675 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:08:25,675 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:08:25,675 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/vamsi
+2024-01-10 17:08:25,676 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/vamsi
+2024-01-10 17:08:25,685 INFO  [http-nio-8090-exec-4] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:294 The size of the admin is: AdminEntity(adminId=AD002, name=vamsi, userName=vamsi, emailId=vamsip.pbt@gmail.com, password=vamsi, phoneNo=9878909878, role=email, otp=null, refreshToken=null)
+2024-01-10 17:08:40,720 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:08:40,720 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:08:40,720 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:08:40,720 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-10 17:08:40,720 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-10 17:08:45,133 INFO  [http-nio-8090-exec-6] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:209 OTP sent successfully to: vamsip.pbt@gmail.com
+2024-01-10 17:08:45,143 INFO  [http-nio-8090-exec-6] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : vamsip.pbt@gmail.com null
+2024-01-10 17:09:08,893 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:09:08,894 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:09:08,894 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:09:08,894 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/vamsi
+2024-01-10 17:09:08,894 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/vamsi
+2024-01-10 17:09:08,897 INFO  [http-nio-8090-exec-7] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:294 The size of the admin is: AdminEntity(adminId=AD002, name=vamsi, userName=vamsi, emailId=vamsip.pbt@gmail.com, password=vamsi, phoneNo=9878909878, role=email, otp=910419, refreshToken=null)
+2024-01-10 17:12:17,755 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:12:17,755 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:12:17,755 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:12:17,755 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-10 17:12:17,755 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-10 17:12:21,254 INFO  [http-nio-8090-exec-1] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:209 OTP sent successfully to: vamsip.pbt@gmail.com
+2024-01-10 17:12:21,265 INFO  [http-nio-8090-exec-1] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : vamsip.pbt@gmail.com null
+2024-01-10 17:12:40,441 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:12:40,442 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:12:40,442 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:12:40,442 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/vamsi
+2024-01-10 17:12:40,442 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/vamsi
+2024-01-10 17:12:40,446 INFO  [http-nio-8090-exec-2] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:294 The size of the admin is: AdminEntity(adminId=AD002, name=vamsi, userName=vamsi, emailId=vamsip.pbt@gmail.com, password=vamsi, phoneNo=9878909878, role=email, otp=279730, refreshToken=null)
+2024-01-10 17:26:33,574 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:26:33,575 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:26:33,575 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:26:33,575 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-10 17:26:33,575 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-10 17:26:38,585 INFO  [http-nio-8090-exec-6] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:209 OTP sent successfully to: vamsip.pbt@gmail.com
+2024-01-10 17:26:38,598 INFO  [http-nio-8090-exec-6] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : vamsip.pbt@gmail.com null
+2024-01-10 17:27:01,367 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:27:01,367 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:27:01,367 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:27:01,367 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/send-otp
+2024-01-10 17:27:01,367 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/send-otp
+2024-01-10 17:27:07,197 INFO  [http-nio-8090-exec-7] com.pathbreaker.hostinghub.service.AdminService.sendOtpByEmail:209 OTP sent successfully to: vamsip.pbt@gmail.com
+2024-01-10 17:27:07,207 INFO  [http-nio-8090-exec-7] com.pathbreaker.hostinghub.service.AdminService.sendOtp:135  OTP for admin sent to the emailId or Username is : vamsip.pbt@gmail.com null
+2024-01-10 17:28:07,221 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:28:07,221 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:28:07,222 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:28:07,222 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/all
+2024-01-10 17:28:07,222 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/all
+2024-01-10 17:28:07,240 INFO  [http-nio-8090-exec-8] com.pathbreaker.hostinghub.service.AdminService.getAllAdmins:227 The size of the admin list is: 2
+2024-01-10 17:30:00,364 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:30:00,364 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:30:00,364 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:30:00,364 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/AD002
+2024-01-10 17:30:00,364 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/AD002
+2024-01-10 17:30:12,221 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:30:12,222 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:30:12,222 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:30:12,222 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/AD002
+2024-01-10 17:30:12,222 INFO  [http-nio-8090-exec-2] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/AD002
+2024-01-10 17:33:25,122 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:33:25,122 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:33:25,122 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:33:25,122 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/add
+2024-01-10 17:33:25,122 INFO  [http-nio-8090-exec-4] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/add
+2024-01-10 17:33:40,461 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:33:40,461 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:33:40,461 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:33:40,461 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/add
+2024-01-10 17:33:40,461 INFO  [http-nio-8090-exec-6] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/add
+2024-01-10 17:33:58,809 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:33:58,809 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:33:58,809 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:33:58,809 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/add
+2024-01-10 17:33:58,809 INFO  [http-nio-8090-exec-7] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/add
+2024-01-10 17:34:10,754 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:34:10,754 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:34:10,754 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:34:10,754 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/add
+2024-01-10 17:34:10,754 INFO  [http-nio-8090-exec-8] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/add
+2024-01-10 17:34:28,587 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:34:28,587 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:34:28,587 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:34:28,587 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/add
+2024-01-10 17:34:28,587 INFO  [http-nio-8090-exec-9] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/add
+2024-01-10 17:35:13,202 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:35:13,202 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:35:13,202 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:35:13,202 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/add
+2024-01-10 17:35:13,202 INFO  [http-nio-8090-exec-10] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/add
+2024-01-10 17:35:28,613 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:40 [CustomFilter] - Inside the do filter method executed..
+2024-01-10 17:35:28,614 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:41 Local Port : 8090
+2024-01-10 17:35:28,614 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:42 server Name : localhost
+2024-01-10 17:35:28,615 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:43 Server Path : /admin/userName/vamsi
+2024-01-10 17:35:28,615 INFO  [http-nio-8090-exec-1] com.pathbreaker.services.filters.CustomFilter.doFilterInternal:44 Request Uri is : /admin/userName/vamsi
+2024-01-10 17:35:28,627 INFO  [http-nio-8090-exec-1] com.pathbreaker.hostinghub.service.AdminService.getAdminByUserName:294 The size of the admin is: AdminEntity(adminId=AD002, name=vamsi, userName=vamsi, emailId=vamsip.pbt@gmail.com, password=vamsi, phoneNo=9878909878, role=email, otp=211382, refreshToken=null)
+2024-01-10 17:53:59,883 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m22s847ms360µs100ns).
+2024-01-10 18:10:17,476 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-10 18:10:17,496 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2024-01-10 18:10:17,514 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.

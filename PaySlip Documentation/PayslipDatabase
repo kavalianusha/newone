@@ -1,0 +1,486 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:3306
+-- Generation Time: Jan 24, 2024 at 02:58 PM
+-- Server version: 5.7.23-23
+-- PHP Version: 8.1.26
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `srivenb8_vbrs`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `departments`
+--
+
+CREATE TABLE `departments` (
+  `department_id` int(11) NOT NULL,
+  `department_title` varchar(100) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `departments`
+--
+
+INSERT INTO `departments` (`department_id`, `department_title`) VALUES
+(1, 'Development'),
+(2, 'IT- Consulting'),
+(3, 'Operations'),
+(4, 'Telecommunication'),
+(5, 'Testing');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `designation`
+--
+
+CREATE TABLE `designation` (
+  `designation_id` int(11) NOT NULL,
+  `title` varchar(100) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `designation`
+--
+
+INSERT INTO `designation` (`designation_id`, `title`) VALUES
+(1, 'Associate Engineer'),
+(2, 'Cloud Engineer'),
+(3, 'Software Engineer'),
+(4, 'Senior Software Engineer'),
+(5, 'Project Manager'),
+(6, 'Data Analyst'),
+(7, 'Business Analyst'),
+(8, 'Testing Engineer'),
+(9, 'Information Security Analyst'),
+(10, 'Senior Software Analyst'),
+(11, 'Data Science Engineer'),
+(12, 'Manager'),
+(14, 'SAP MM Consultant'),
+(15, 'Senior Software Developer'),
+(16, 'Senior Telecom Engineer'),
+(17, 'Sr Software Engineer');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `employee_data`
+--
+
+CREATE TABLE `employee_data` (
+  `id` int(255) NOT NULL,
+  `E_type` varchar(255) NOT NULL,
+  `f_name` varchar(255) NOT NULL,
+  `l_name` varchar(255) NOT NULL,
+  `e_id` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `date_of_hiring` date NOT NULL,
+  `department` varchar(255) NOT NULL,
+  `location` varchar(255) NOT NULL,
+  `manager` varchar(255) NOT NULL,
+  `otp` int(6) NOT NULL,
+  `last_login` date NOT NULL,
+  `created_at` datetime(6) NOT NULL,
+  `updated_at` varchar(255) NOT NULL,
+  `status` int(11) NOT NULL,
+  `ip_address` varchar(255) NOT NULL,
+  `resignation_date` date DEFAULT NULL,
+  `last_working_date` date DEFAULT NULL,
+  `last_designation_title` int(11) NOT NULL,
+  `type_of_employement` tinyint(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `employee_data`
+--
+
+INSERT INTO `employee_data` (`id`, `E_type`, `f_name`, `l_name`, `e_id`, `email`, `password`, `title`, `date_of_hiring`, `department`, `location`, `manager`, `otp`, `last_login`, `created_at`, `updated_at`, `status`, `ip_address`, `resignation_date`, `last_working_date`, `last_designation_title`, `type_of_employement`) VALUES
+(1, 'Permanent', 'Tatineni ', 'Prabhu Charan', '200VR114', 'prabhucharan.t@vbrsit.com', 'Vbrs@2023', '2', '2021-01-18', 'Development', 'Hyderabad', 'Balaji Kumar Thota', 349520, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(2, 'Permanent', 'Cherukuru ', 'Hema latha', '201', 'hemalatha.ch@vbrsit.com', 'Vbrs@2023', '1', '2019-12-01', 'Development', 'Hyderabad', 'Samala Manasa', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(3, 'Permanent', 'Gadela ', 'Anil Kumar', '203', 'anilkumar.g@vbrsit.com', 'Vbrs@2023', '14', '2021-07-26', 'IT- Consulting', 'Hyderabad', 'Balaji Kumar Thota', 397849, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(4, 'Permanent', 'Chigurupati ', 'Vasanthi ', '243', 'vasanthichigurupati@vbrsit.com', 'Vbrs@2023', '3', '2019-12-05', 'Development', 'Hyderabad', 'Balaji Kumar Thota', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(5, 'Permanent', 'Chigurupati ', 'Vamsi Krishna', '248', 'vamsikrishna.ch@vbrsit.com', 'Vbrs@2023', '4', '2020-12-21', 'Development', 'Hyderabad', 'Samala Manasa', 372645, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(6, 'Permanent', 'Samala ', 'Manasa', '253', 'manasa.samala@vbrsit.com', 'Vbrs@2023', '5', '2020-05-04', 'IT- Consulting', 'Hyderabad', 'Balaji Kumar Thota', 633198, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(7, 'Permanent', 'Yadala ', 'Siva Bharathi', '272', 'bharathi.y@vbrsit.com', 'Vbrs@2023', '3', '2023-05-04', 'Development', 'Hyderabad', 'Vamsi Krishna Chigurupati', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(8, 'Permanent', 'Narahari ', 'Bhargav', '277', 'bhargav.narahari@vbrsit.com', 'Vbrs@2023', '3', '2019-11-04', 'Development', 'Hyderabad', 'Vemuri NagaJayanth', 256515, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(9, 'Permanent', ' Leela Narasimha Rao ', 'Annadasu', '307', 'leelanarasimha.annadasapu@vbrsit.com', 'Vbrs@2023', '15', '2022-01-01', 'Development', 'Hyderabad', 'Ch Vamshi Krishna', 639807, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(10, 'Permanent', ' Vinay Kumar ', 'Achukolu', '308', 'vinaykumar.a@vbrsit.com', 'Vbrs@2023', '6', '2021-11-28', 'Development', 'Hyderabad', 'Balaji Kumar', 613436, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(11, 'Permanent', 'Juttaga ', 'Pavani', '309', 'pavani.juttaga@vbrsit.com', 'Vbrs@2023', '7', '2022-12-26', 'Development', 'Hyderabad', 'Samala Manasa', 111735, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(12, 'Permanent', 'Ardhalapudi ', 'Subbarao', '311', 'subbarao.ardhalapudi@vbrsit.com', 'Vbrs@2023', '8', '2022-12-26', 'Testing', 'Hyderabad', 'Balaji Kumar Thota', 155378, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(13, 'Permanent', 'Kamjula Markandeya ', 'Manoj Reddy', '313', 'manojreddy.k@vbrsit.com', 'Vbrs@2023', '3', '2021-05-10', 'Development', 'Hyderabad', 'Vamsi Krishna Chigurupati', 876368, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(14, 'Permanent', 'Musaligari ', 'Vijay Reddy', '314', 'vijaym@vbrsit.com', 'Vbrs@2023', '9', '2020-12-21', 'Development', 'Hyderabad', 'Cherukuru Hemalatha', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(15, 'Permanent', 'Gogula ', 'Laxmi Devi', '317', 'laxmidevi.g@vbrsit.com', 'Vbrs@2023', '10', '2023-05-02', 'Development', 'Hyderabad', 'Samala Manasa', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(16, 'Permanent', 'Vemuri ', 'Naga Jayanth', '318', 'nagajayanth.v@vbrsit.com', 'Vbrs@2023', '4', '2016-12-08', 'Development', 'Hyderabad', 'Balaji Kumar Thota', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(17, 'Permanent', 'Chandra ', 'Radha', '319', 'radha.chandra@vbrsit.com', 'Vbrs@2023', '4', '2023-06-01', 'Development', 'Hyderabad', 'Vamsi Krishna Chigurupati', 383157, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(18, 'Permanent', 'Bareddy ', 'Thanusha', '320', 'thanusha.b@vbrsit.com', 'Vbrs@2023', '3', '2023-06-01', 'Development', 'Hyderabad', 'Vamsi Krishna Chigurupati', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(19, 'Permanent', 'Sai Mahesh Reddy', 'Jetty ', '321', 'Saimahesh.j@vbrsit.com', 'Vbrs@2023', '3', '2023-06-01', 'Development', 'Hyderabad', 'Vamsi Krishna Chigurupati', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(20, 'Permanent', 'Saikrishna Manikanta', 'Kopalli ', '323', 'saikrishna.k@vbrsit.com', 'Vbrs@2023', '11', '2023-06-01', 'Development', 'Hyderabad', 'Bhargav Medarametla', 847917, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(21, 'Permanent', 'Nakka ', 'Jhansi Joshika', '324', 'Joshika.n@vbrsit.com', 'Vbrs@2023', '4', '2023-07-01', 'Development', 'Hyderabad', 'Vamsi Krishna Chigurupati', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(22, 'Permanent', 'Hemanth Kumar ', 'Konisetti', '325', 'hemanth.k@vbrsit.com', 'Vbrs@7287', '16', '2023-06-30', 'Telecommunication', 'Hyderabad', 'Balaji Kumar Thota', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(23, 'Permanent', 'Balaji Kumar', 'Thota', '326', 'balaji.thota@vbrsit.com', 'Vbrs@2023', '12', '2023-08-09', 'Operations ', 'Hyderabad', 'Vijay Bhaskar Veerapaneni', 150402, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(24, 'Permanent', 'Manasa ', 'Ponakala', '327', 'manasa.p@vbrsit.com', 'Vbrs@2023', '3', '2022-02-05', 'Development', 'Hyderabad', 'chigurupati Vasanthi', 357964, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '0000-00-00', '0000-00-00', 0, 0),
+(25, 'Permanent', 'Mekala ', 'Narsimha', '328', 'narsimha.m@vbrsit.com', 'Vbrs@2023', '17', '2023-08-01', 'Development', 'Hyderabad', 'Vamsi Krishna Chigurupati', 730804, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', '2023-11-24', '2023-12-30', 17, 1),
+(26, 'Permanent', 'Sandhya Yadav', 'Ujjaily', '329VR136', 'sandhya.u@vbrsit.com', 'Vbrs@2023', '3', '2023-09-04', '1', 'Hyderabad', 'chigurupati Vasanthi', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(27, 'Permanent', 'Bhagyapu', 'Sneha', '330VR137', 'sneha.b@vbrsit.com', 'Vbrs@2023', '3', '2023-09-07', '1', 'Hyderabad', 'Vamsi Krishna Chigurupati', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(28, 'Permanent', 'Kondragunta ', 'Janardhan', '332VR139', 'janardhanchowdary1997@gmail.com', 'Vbrs@2023', '3', '2023-09-04', '1', 'Hyderabad', 'Vamsi Krishna Chigurupati', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(29, 'Permanent', 'Mandapati', 'Naga Manoj', '333VR140', 'nagamanoj.m@vbrsit.com', 'Vbrs@2023', '3', '2023-09-06', '1', 'Hyderabad', 'chigurupati Vasanthi', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(30, 'Permanent', 'Medarametla ', 'Bhargav', '201VR115', 'bhargav.medarametla@vbrsit.com', 'Vbrs@2023', '3', '2019-10-14', '1', 'Hyderabad', 'Balaji Kumar Thota', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(31, 'Permanent', 'Somu', 'Sowmya', '336VR143', 'sowmya.s@vbrsit.com', 'Vbrs@2023', '4', '2023-10-04', '1', 'Hyderabad', 'Vamsi Krishna Chigurupati', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(32, 'Permanent', 'Tummala ', 'Sushma', '335VR142', 'sushma.t@vbrsit.com', 'Vbrs@2023', '3', '2023-10-03', '1', 'Hyderabad', 'chigurupati Vasanthi', 650425, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(33, 'Permanent', 'Pedditi ', 'Chetan Reddy', '338VR145', 'chetanreddy.p@vbrsit.com', 'Vbrs@2023', '3', '2023-09-25', '1', 'Hyderabad', 'Vamsi Krishna Chigurupati', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(34, 'Permanent', 'Madiga', 'Narasimhulu', '340VR147', 'narasimhulu.m@vbrsit.com', 'Vbrs@2023', '3', '2023-09-28', '1', 'Hyderabad', 'Vamsi Krishna Chigurupati', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(35, 'Permanent', 'Alla ', 'Amarnadh', '341VR148', 'amarnadh.a@vbrsit.com', 'Vbrs@2023', '1', '2023-09-29', '1', 'Hyderabad', 'chigurupati Vasanthi', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(36, 'Permanent', 'Parmati ', 'Srivardhan Reddy', '342VR149', 'srivardhan.p@vbrsit.com', 'Vbrs@2023', '9', '2022-04-05', '1', 'Hyderabad', 'Musaligari Vijay Reddy', 878017, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(37, 'Permanent', 'B', 'Dinesh', '339VR146', 'dinesh.b@vbrsit.com', 'Vbrs@2023', '3', '2023-09-28', '1', 'Hyderabad', 'chigurupati Vasanthi', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0),
+(38, 'Permanent', 'Rajesh ', 'Gudipati', '337VR144', ' rajesh.g@vbrsit.com', 'Vbrs@2023', '3', '2023-10-31', '1', 'Hyderabad', 'Vamsi Krishna Chigurupati', 0, '0000-00-00', '0000-00-00 00:00:00.000000', '', 0, '', NULL, NULL, 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login`
+--
+
+CREATE TABLE `login` (
+  `ID` int(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `otp` int(6) NOT NULL,
+  `last_login` date NOT NULL,
+   role
+  `created_at` datetime(6) NOT NULL,//
+  `updated_at` datetime(6) NOT NULL,//
+  `is_deleted` int(11) NOT NULL,//
+  `status` int(11) NOT NULL,
+  `ip_address` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`ID`, `username`, `password`, `otp`, `last_login`, `created_at`, `updated_at`, `is_deleted`, `status`, `ip_address`) VALUES
+(1, 'vijay@pathbreakertech.com', 'Vbrsit@2014', 825838, '0000-00-00', '0000-00-00 00:00:00.000000', '0000-00-00 00:00:00.000000', 0, 0, ''),
+(2, 'vindyaswativ@pathbreakertech.com', 'Vbrsit@2014', 700466, '0000-00-00', '0000-00-00 00:00:00.000000', '0000-00-00 00:00:00.000000', 0, 0, '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `payslip`
+--
+
+CREATE TABLE `payslip` (
+  `id` int(255) NOT NULL,
+  `e_id` varchar(255) NOT NULL,
+  `year` int(255) NOT NULL,
+  `month` varchar(255) NOT NULL,
+  `payslip` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `payslip`
+--
+
+INSERT INTO `payslip` (`id`, `e_id`, `year`, `month`, `payslip`) VALUES
+(54, '307', 2022, 'January', 'web.xml'),
+(61, '203', 2023, 'April', 'Anil Kumar G - April 2023-Pay Slip.pdf'),
+(62, '203', 2023, 'May', 'Anil Kumar G - May 2023-Pay Slip.pdf'),
+(63, '203', 2023, 'June', 'Anil Kumar G - JUNE 2023-Pay Slip.pdf'),
+(64, '203', 2023, 'July', 'Anil Kumar G - JULY 2023-Pay Slip.pdf'),
+(66, '203', 2023, 'August', 'Anil Kumar G - AUGUST 2023 - Pay Slip .pdf'),
+(67, '203', 2023, 'September', 'Anil Kumar G - Sept 2023 - Pay Slip .pdf'),
+(68, '243', 2023, 'April', 'Vasanthi CH- APRIL  2023-Pay Slip.pdf'),
+(69, '243', 2023, 'May', 'Vasanthi CH May 2023-Pay Slip.pdf'),
+(70, '243', 2023, 'June', 'Vasanthi CH JULY 2023-Pay Slip.pdf'),
+(71, '243', 2023, 'July', 'Vasanthi CH JULY 2023-Pay Slip.pdf'),
+(72, '243', 2023, 'August', 'Vasanthi CH - August - 2023-Pay Slip.pdf'),
+(73, '248', 2023, 'April', 'Vamshi CH- April  2023-Pay Slip .pdf'),
+(74, '248', 2023, 'May', 'Vamshi CH- May Pay Slip 2023.pdf'),
+(75, '248', 2023, 'June', 'Vamshi CH- JUNE 2023-Pay Slip.pdf'),
+(76, '248', 2023, 'July', 'Vamshi CH- JULY 2023-Pay Slip.pdf'),
+(77, '248', 2023, 'August', 'Vamshi CH- August 2023-Pay Slip.pdf'),
+(78, '248', 2023, 'September', 'Vamshi CH- 2023-September Pay Slip 2023.pdf'),
+(79, '307', 2023, 'April', 'Annadasu Leela Narasimha rao- April 2023-Pay Slip.pdf'),
+(80, '307', 2023, 'May', 'Annadasu Leela Narasimha rao- MAY 2023-Pay Slip.pdf'),
+(81, '307', 2023, 'June', 'Annadasu Leela Narasimha rao- JUNE 2023-Pay Slip .pdf'),
+(82, '307', 2023, 'July', 'Annadasu Leela Narasimha rao- 2023 - Payslip July.pdf'),
+(83, '307', 2023, 'August', 'A Leela Narasimha rao- 2023 -August Payslip .pdf'),
+(84, '307', 2023, 'September', 'A Leela Narasimha rao- 2023 -September Payslip .pdf'),
+(85, '308', 2023, 'April', 'vinay kumar- April 2023-Pay Slip .pdf'),
+(86, '308', 2023, 'May', 'Vinay kumar- May 2023-Pay Slip .pdf'),
+(87, '308', 2023, 'June', 'Vinay kumar- June 2023-Pay Slip .pdf'),
+(88, '308', 2023, 'August', 'Vinay kumar- August 2023-Pay Slip.pdf'),
+(89, '308', 2023, 'July', 'Vinay kumar- July 2023-Pay Slip.pdf'),
+(90, '308', 2023, 'September', 'Vinay Kumar- September 2023-Pay Slip.pdf'),
+(91, '311', 2023, 'April', 'A Subbarao - APRIL 2023 Payslip.pdf'),
+(92, '311', 2023, 'May', 'A Subbarao - May 2023 Payslip.pdf'),
+(93, '311', 2023, 'June', 'A Subbarao - JUNE 2023 Payslip.pdf'),
+(94, '311', 2023, 'July', 'A Subbarao - JULY 2023 Payslip.pdf'),
+(95, '311', 2023, 'August', 'A Subbarao - August 2023 Payslip .pdf'),
+(96, '311', 2023, 'September', 'A Subbarao - September 2023 Payslip .pdf'),
+(97, '313', 2023, 'April', 'Manoj Reddy - April 2023 Pay Slip.pdf'),
+(98, '313', 2023, 'May', 'Manoj Reddy - May 2023 Pay Slip.pdf'),
+(99, '313', 2023, 'June', 'Manoj Reddy - June 2023- Pay Slip  .pdf'),
+(100, '313', 2023, 'July', 'Manoj Reddy - JULY 2023- Pay Slip .pdf'),
+(101, '313', 2023, 'August', 'Manoj - Payslip - August 2023.pdf'),
+(102, '313', 2023, 'September', 'Manoj Reddy - Payslip - Sept 2023.pdf'),
+(103, '314', 2023, 'April', 'Vijay Reddy -April 2023-Pay Slip.pdf'),
+(104, '314', 2023, 'May', 'Vijay Reddy -May  2023-Pay Slip .pdf'),
+(105, '314', 2023, 'June', 'Vijay Reddy -June  2023-Pay Slip .pdf'),
+(106, '314', 2023, 'July', 'Vijay Reddy -July  2023-Pay Slip.pdf'),
+(107, '314', 2023, 'September', 'Vijay Reddy -Pay Slip - September  2023 .pdf'),
+(109, '200', 2023, 'September', 'Prabhu Charan - September 2023- Pay Slip.pdf'),
+(110, '320', 2023, 'September', 'Tanusha Bareddy - September 2023 - PaySlip.pdf'),
+(111, '321', 2023, 'September', 'Sai Mahesh J- September 2023- Pay Slip .pdf'),
+(112, '323', 2023, 'September', 'Sai Krishna K- September 2023-Pay Slip .pdf'),
+(113, '324', 2023, 'September', 'Nakka Jhansi Joshika - Pay Slip - Sept 2023 .pdf'),
+(114, '325', 2023, 'September', 'Hemanth Kumar Konisetti - Payslip - SEPT 2023.pdf'),
+(115, '327', 2023, 'September', 'Ponakala Manasa - September 2023-Pay Slip.pdf'),
+(116, '328', 2023, 'September', 'Mekala Narsimha - September 2023 - Payslip.pdf'),
+(117, '326', 2023, 'September', 'Balaji Kumar Thota - Pay Slip - September 2023 .pdf'),
+(119, '200VR114', 2023, 'September', 'Prabhu Charan - September 2023- Pay Slip.pdf'),
+(120, '277', 2023, 'September', 'Narahari Bhargav - September 2023-Pay Slip .pdf'),
+(121, '309', 2023, 'September', 'J Pavani- September 2023-Pay Slip.pdf'),
+(122, '327', 2023, 'October', 'Ponakala Manasa - October Payslip - 2023.pdf'),
+(126, '307', 2023, 'October', 'A Leela narasimha rao - October payslip - 2023.pdf'),
+(127, '311', 2023, 'October', 'A Subbarao - October Payslip - 2023.pdf'),
+(128, '203', 2023, 'October', 'Anil Kumar G - October Payslip - 2023.pdf'),
+(129, '326', 2023, 'October', 'Balaji Kumar Thota - October Payslip - 2023 PD .pdf'),
+(130, '330VR137', 2023, 'October', 'Bhagyapu Sneha - October 2023-Pay Slip .pdf'),
+(131, '325', 2023, 'October', 'Hemanth Kumar K - October Payslip - 2023.pdf'),
+(132, '309', 2023, 'October', 'J Pavani - October Payslip - 2023.pdf'),
+(133, '332VR139', 2023, 'October', 'Janardhan K - October  2023-Pay Slip .pdf'),
+(134, '253', 2023, 'October', 'Manasa Samala - October 2023 Pay slip .pdf'),
+(135, '313', 2023, 'October', 'Manoj Reddy - October Payslip - 2023.pdf'),
+(136, '328', 2023, 'October', 'Mekala Narsimha - October Payslip - 2023.pdf'),
+(137, '333VR140', 2023, 'October', 'Naga Manoj- October Payslip - 2023 .pdf'),
+(138, '324', 2023, 'October', 'Nakka Jhansi Joshika - October Payslip - 2023.pdf'),
+(139, '277', 2023, 'October', 'Narahari Bhargav - October Payslip - 2023.pdf'),
+(140, '200VR114', 2023, 'October', 'Prabhu Charan - October Payslip - 2023.pdf'),
+(142, '323', 2023, 'October', 'Sai Krishna - October Payslip -2023 .pdf'),
+(143, '321', 2023, 'October', 'Sai Mahesh Jetty - October Payslip - 2023.pdf'),
+(144, '329VR136', 2023, 'October', 'Sandhya U - October 2023-Pay Slip .pdf'),
+(145, '248', 2023, 'October', 'Vamsi CH - October Payslip - 2023.pdf'),
+(146, '320', 2023, 'October', 'Thanusha Bareddy - October Payslip - 2023.pdf'),
+(147, '314', 2023, 'October', 'Vijay Reddy M - October Payslip - 2023.pdf'),
+(148, '201VR115', 2023, 'October', 'Bhargav M - October Payslip - 2023.pdf'),
+(149, '201VR115', 2023, 'September', 'Bhargav M - Sept  2023-Pay Slip.pdf'),
+(151, '335VR142', 2023, 'October', 'Sushma Tummala - October payslip - 2023.pdf'),
+(152, '336VR143', 2023, 'October', 'Sowmya Somu - October Payslip - 2023.pdf'),
+(153, '338VR145', 2023, 'October', 'Chetan Reddy - October Payslip - 2023.pdf'),
+(154, '340VR147', 2023, 'October', 'Madiga Narasimhulu - October Payslip - 2023.pdf'),
+(155, '341VR148', 2023, 'October', 'Amarnadh A- October Payslip - 2023.pdf'),
+(156, '342VR149', 2023, 'October', 'SriVardhan Reddy - October Payslip - 2023.pdf'),
+(157, '200VR114', 2023, 'April', 'Prabhu - April  2023-Pay Slip.pdf'),
+(158, '200VR114', 2023, 'May', 'Prabhu - May  2023-Pay Slip.pdf'),
+(159, '200VR114', 2023, 'June', 'Prabhu Charan - JUNE 2023-Pay Slip.pdf'),
+(160, '200VR114', 2023, 'July', 'Prabhu Charan - JULY 2023- Pay Slip.pdf'),
+(161, '200VR114', 2023, 'August', 'Prabhu Charan - August 2023- Pay Slip.pdf'),
+(162, '201', 2023, 'April', 'Hemalatha - April - PaySlip 2023 .pdf'),
+(163, '201', 2023, 'May', 'Hemalatha  May  2023-Pay Slip .pdf'),
+(164, '243', 2023, 'April', 'Vasanthi CH- APRIL  2023-Pay Slip.pdf'),
+(165, '243', 2023, 'May', 'Vasanthi CH May 2023-Pay Slip.pdf'),
+(166, '243', 2023, 'June', 'Vasanthi CH June 2023-Pay Slip.pdf'),
+(167, '243', 2023, 'July', 'Vasanthi CH JULY 2023-Pay Slip.pdf'),
+(168, '243', 2023, 'August', 'Vasanthi CH - August - 2023-Pay Slip.pdf'),
+(173, '253', 2023, 'April', 'Manasa Samala - April  2023 Pay slip.pdf'),
+(174, '253', 2023, 'May', 'Manasa Samala May 2023-Pay Slip.pdf'),
+(175, '253', 2023, 'June', 'Manasa Samala - JUNE 2023 Pay slip.pdf'),
+(176, '253', 2023, 'July', 'Manasa Samala - JULY 2023 Pay slip.pdf'),
+(177, '253', 2023, 'August', 'Manasa Samala - August 2023 Pay slip .pdf'),
+(178, '253', 2023, 'September', 'Manasa Samala - September 2023 Pay slip .pdf'),
+(179, '272', 2023, 'May', 'Siva Bharathi - May 2023-Pay Slip.pdf'),
+(180, '272', 2023, 'June', 'Bharathi - JUNE 2023-Pay Slip.pdf'),
+(181, '272', 2023, 'July', 'Siva Bharathi - July  2023-Pay Slip.pdf'),
+(182, '272', 2023, 'August', 'Siva Bharathi - August 2023-Pay Slip.pdf'),
+(183, '277', 2023, 'April', 'Narahari Bhargav - April 2023-Pay Slip .pdf'),
+(184, '277', 2023, 'May', 'Narahari Bhargav - May 2023-Pay Slip .pdf'),
+(185, '277', 2023, 'July', 'Narahari Bhargav - July 2023-Pay Slip .pdf'),
+(186, '277', 2023, 'August', 'Narahari Bhargav - August  2023-Pay Slip .pdf'),
+(187, '277', 2023, 'June', 'Narahari Bhargav - June 2023-Pay Slip .pdf'),
+(188, '309', 2023, 'April', 'J Pavani - April_2023 - Payslip.pdf'),
+(189, '309', 2023, 'May', 'J Pavano - May 2023 - Payslip.pdf'),
+(190, '309', 2023, 'June', 'J Pavani - June 2023 - Payslip.pdf'),
+(191, '309', 2023, 'July', 'J Pavani- JULY 2023-Pay Slip.pdf'),
+(192, '309', 2023, 'August', 'J Pavani- August 2023-Pay Slip.pdf'),
+(193, '314', 2023, 'August', 'Vijay Reddy -Pay Slip - August  2023.pdf'),
+(194, '318', 2023, 'April', 'Vemuri Naga Jayanth - April 2023 Pay Slip.pdf'),
+(195, '318', 2023, 'May', 'Vemuri Naga Jayanth - MAY 2023 Pay Slip .pdf'),
+(196, '318', 2023, 'June', 'Vemuri Naga Jayanth - June 2023 Pay Slip .pdf'),
+(197, '319', 2023, 'June', 'Radha Chandra - JUNE 2023 - PaySlip.pdf'),
+(198, '319', 2023, 'July', 'Radha Chandra - JULY 2023 - PaySlip.pdf'),
+(199, '319', 2023, 'August', 'Radha Chandra - August 2023 - PaySlip.pdf'),
+(200, '319', 2023, 'September', 'Radha Chandra - September Payslip- 2023.pdf'),
+(201, '319', 2023, 'October', 'Radha Chandra - October Payslip- 2023.pdf'),
+(202, '309', 2023, 'November', 'J Pavani - November Payslip - 2023.pdf'),
+(203, '320', 2023, 'July', 'Tanusha Bareddy - JULY 2023 - PaySlip.pdf'),
+(204, '320', 2023, 'August', 'Tanusha Bareddy - August 2023 - PaySlip.pdf'),
+(205, '321', 2023, 'June', 'Sai Mahesh J - June 2023- Pay Slip .pdf'),
+(206, '321', 2023, 'July', 'Sai Mahesh J - JULY 2023- Pay Slip .pdf'),
+(207, '321', 2023, 'August', 'Sai Mahesh J- August 2023- Pay Slip .pdf'),
+(208, '323', 2023, 'June', 'Sai Krishna K- JUNE 2023 - Payslip.pdf'),
+(209, '323', 2023, 'July', 'Sai Krishna K- JULY 2023-Pay Slip.pdf'),
+(210, '323', 2023, 'August', 'Sai Krishna K- August 2023-Pay Slip .pdf'),
+(211, '324', 2023, 'August', 'Nakka Jhansi Joshika - August Payslip 2023.pdf'),
+(212, '307', 2023, 'November', 'A Leela narasimha rao - November 2023_Payslip.pdf'),
+(213, '311', 2023, 'November', 'A Subbarao - November 2023_Payslip.pdf'),
+(214, '341VR148', 2023, 'November', 'Amarnadh A- November 2023_Payslips.pdf'),
+(215, '203', 2023, 'November', 'Anil Kumar G - November 2023_Payslips.pdf'),
+(216, '326', 2023, 'November', 'Balaji Kumar Thota - November 2023_Payslip .pdf'),
+(217, '330VR137', 2023, 'November', 'Bhagyapu Sneha - November 2023_Pay Slip .pdf'),
+(218, '201VR115', 2023, 'November', 'Bhargav M - November 2023_Payslips.pdf'),
+(219, '338VR145', 2023, 'November', 'Chetan Reddy - November 2023_Payslip.pdf'),
+(220, '325', 2023, 'November', 'Hemanth Kumar K - November 2023_Payslip.pdf'),
+(221, '332VR139', 2023, 'November', 'Janardhan K - November 2023_Payslip.pdf'),
+(222, '340VR147', 2023, 'November', 'Madiga Narasimhulu - November 2023_Payslip.pdf'),
+(223, '253', 2023, 'November', 'Manasa Samala - November 2023_Payslip.pdf'),
+(224, '313', 2023, 'November', 'Manoj Reddy - November 2023_Payslip.pdf'),
+(225, '328', 2023, 'November', 'Mekala Narsimha - November  2023_Payslip.pdf'),
+(226, '333VR140', 2023, 'November', 'Naga Manoj- November 2023_Payslip.pdf'),
+(227, '324', 2023, 'November', 'Nakka Jhansi Joshika - November 2023_Payslip.pdf'),
+(228, '277', 2023, 'November', 'Narahari Bhargav - November 2023_Payslips.pdf'),
+(229, '327', 2023, 'November', 'Ponakala Manasa - November 2023__Payslip.pdf'),
+(230, '200VR114', 2023, 'November', 'Prabhu Charan - November 2023_Payslip.pdf'),
+(231, '319', 2023, 'November', 'Radha Chandra - November 2023_Payslip.pdf'),
+(232, '337VR144', 2023, 'November', 'Rajesh Gudipati - November 2023_Payslip.pdf'),
+(233, '323', 2023, 'November', 'Sai Krishna - November 2023_Payslip.pdf'),
+(234, '321', 2023, 'November', 'Sai Mahesh Jetty - November 2023_Payslip.pdf'),
+(235, '329VR136', 2023, 'November', 'Sandhya U - November 2023_Payslip.pdf'),
+(236, '336VR143', 2023, 'November', 'Sowmya Somu - November 2023_Payslip.pdf'),
+(237, '342VR149', 2023, 'November', 'SriVardhan Reddy - November 2023_Payslip.pdf'),
+(238, '335VR142', 2023, 'November', 'Sushma Tummala - November 2023_Payslip.pdf');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `test`
+--
+
+CREATE TABLE `test` (
+  `name` varchar(255) NOT NULL,
+  `mobile` int(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `test1`
+--
+
+CREATE TABLE `test1` (
+  `company_name` varchar(255) NOT NULL,
+  `company_mobile` int(255) NOT NULL,
+  `name` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `departments`
+--
+ALTER TABLE `departments`
+  ADD PRIMARY KEY (`department_id`);
+
+--
+-- Indexes for table `designation`
+--
+ALTER TABLE `designation`
+  ADD PRIMARY KEY (`designation_id`);
+
+--
+-- Indexes for table `employee_data`
+--
+ALTER TABLE `employee_data`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `login`
+--
+ALTER TABLE `login`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- Indexes for table `payslip`
+--
+ALTER TABLE `payslip`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `test`
+--
+ALTER TABLE `test`
+  ADD PRIMARY KEY (`name`);
+
+--
+-- Indexes for table `test1`
+--
+ALTER TABLE `test1`
+  ADD PRIMARY KEY (`company_name`),
+  ADD KEY `name` (`name`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `departments`
+--
+ALTER TABLE `departments`
+  MODIFY `department_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `designation`
+--
+ALTER TABLE `designation`
+  MODIFY `designation_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+
+--
+-- AUTO_INCREMENT for table `employee_data`
+--
+ALTER TABLE `employee_data`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+
+--
+-- AUTO_INCREMENT for table `login`
+--
+ALTER TABLE `login`
+  MODIFY `ID` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `payslip`
+--
+ALTER TABLE `payslip`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=239;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `test1`
+--
+ALTER TABLE `test1`
+  ADD CONSTRAINT `test1_ibfk_1` FOREIGN KEY (`name`) REFERENCES `test` (`name`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

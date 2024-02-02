@@ -1,0 +1,1 @@
+2023-09-21 19:39:01,368 INFO  [http-nio-8094-exec-2] com.example.efilingbazaar.controller.CustomerController.deleteCustomerById:126 The customer is deleted successfully!!

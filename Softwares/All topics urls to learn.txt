@@ -1,0 +1,61 @@
+https://www.baeldung.com/spring-boot-logging - how to write the loggers in the code
+
+https://youtu.be/kXhYu939_5s - how to write J unit test cases link
+
+https://www.baeldung.com/mapstruct - mapstruct url to apply in the code
+
+https://projectlombok.org/download - link to download the lombok to our IDE or eclipse or 
+
+spring suite toolshttps://www.baeldung.com/spring-boot-add-filter, 
+
+https://springframework.guru/jwt-authentication-in-spring-microservices-jwt-token/ - Jwt tokens link to learn
+
+youtube link for JWT token:- https://www.youtube.com/watch?v=lA18U8dGKF8
+
+https://maven.apache.org/download.cgi -- maven download link
+
+https://github.com/webyog/sqlyog-community/wiki/Downloads:- sql yog new version download link
+
+https://www.masterincoding.com/validate-jwt-token-with-public-key-rsa256/ :- link to learn JWT tokens completely
+
+https://quadmeup.com/2023/01/24/how-to-create-spring-boot-custom-request-filter:- Custom filter creation
+
+https://dev.to/ahmedash95/java-springboot-request-filters-15ha:- create filter and add accesstoken validation in that filter
+
+baeldung.com/spring-boot-add-filter- filter 
+
+The full source code of Customer filter:- https://github.com/ahmedash95/java-spring-request-filters
+
+The Schedule topic regarding the sending emails when service is up - https://www.baeldung.com/spring-scheduled-tasks
+
+
+Database Configuration :- 
+server.port=8082
+# Database Configurationspring.datasource.url=jdbc:mysql://localhost:3306/sman123
+spring.datasource.username=root
+spring.datasource.password=Mamatha@123
+spring.jpa.hibernate.ddl-auto=update
+#dymaplddxjemfpmk#
+Email Configuration
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username={give the mail id from which you would like to sen d the mail ex:- pbtjava@gmail.com}
+spring.mail.password={give the password of that emailId}
+    username: pbtjava@gmail.com
+    password: jcnsrxqjifkrvqxl
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+
+server@server:~/anushamamatha2/efiling-bazaar$ cd target
+
+server@server:~/anushamamatha2/efiling-bazaar/target$ dir
+classes                            efiling-bazaar-0.0.1-SNAPSHOT.jar.original  generated-test-sources  maven-status      test-classes
+efiling-bazaar-0.0.1-SNAPSHOT.jar  generated-sources                           maven-archiver          surefire-reports
+
+server@server:~/anushamamatha2/efiling-bazaar/target$ ps -ef | grep efiling-bazaar
+server     30215   30042  0 17:22 pts/1    00:00:00 grep --color=auto efiling-bazaar
+
+server@server:~/anushamamatha2/efiling-bazaar/target$ java -jar efiling-bazaar-0.0.1-SNAPSHOT.jar &
+
+By performing the above commands in the server we can run the code permanently after closing the session in the server
+

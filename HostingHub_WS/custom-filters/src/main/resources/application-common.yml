@@ -1,0 +1,9 @@
+service:
+  auth:
+    public-token: "-----BEGIN PUBLIC KEY-----
+  MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlDD3IXzFnJNF9z5RcMXcVqkm5KkvMpktWUT/6LdZmFQ5WewiILO/ZjQM+rUXF38a27jnV2GZk51mo0dpVeKEChvEiLZr54pCQ9mhBiSSHFhld91ML5iVUiQFr4HPfPfRbOmQqNjdG2NlbbSrmi9Myrq/u/D/LvLcSDpso3nK5GFdwm+jC47vRTm65JTK5ycG9sQnxGeZ0HGd/KdVICyioskA/bFHAurSHcGt+mT9ArXe71ULu8aUeDD4+jWRC5HXYnul0YHDib++lKO3CGuVstKQ4xHZU/nkAIoHbCXynDWEAsDjeg2RqTMaJnu4nj3JyHxSiDRQDa1Xz+MlUqjrylpGAm5nbT8RRr0t5sMGrCeRBlnG6ERge21J3c4tk/kGE70reDD5DPljgkg1hUqNJQe6XaAN46abHWyzp0/aacfI1Z0S/G0BDaOY3Ru1HH+sqILK0MYTjpPHkzWJOzAtkmxua7xNwGws4En6PPRoHWpGfILv6+kNHN2FaXMEVWqMFYWE8rFN3VABi1sbqK2suHqHoCHs1Hq+50NCxYks0xCgGiJ0iFZtzcPeltZK+1ZyBEuXFQFBMiuyCx1KXjlgaV+ETkOJEuFb3A/KFJFbIixE4p956Ue81RtbhiKEcOz+P2duQqxSZI2M7cY5kfpYkYbqHtzy5KObtg7qbiKCU0UCAwEAAQ==
+  -----END PUBLIC KEY-----"
+    exclusion-list: '/login,/admin/send-otp,/admin/userName/.*'
+server:
+  error:
+    include-message: always

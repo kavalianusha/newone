@@ -1,0 +1,35 @@
+server:
+  port: 8091
+
+spring:
+  profiles:
+    include: common
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 1309
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+  aop:
+    proxy-target-class: true
+    thymeleaf:
+      cache: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: pbtjava@gmail.com
+    password: jcnsrxqjifkrvqxl
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+twilio:
+  account-sid: AC4dc494a1d42202041f9f159bf117f32e
+  auth-token: ed19288e1750ed166b92c6bcda31db16
+  phone-number: "+12135830775"

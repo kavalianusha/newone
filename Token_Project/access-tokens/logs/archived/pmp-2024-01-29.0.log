@@ -1,0 +1,56 @@
+2024-01-29 17:46:59,949 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarting:51 Starting PmpApplication using Java 20.0.1 with PID 18884 (D:\PMP_Project_WS\pmp\target\classes started by Admin in D:\PMP_Project_WS\pmp)
+2024-01-29 17:46:59,957 INFO  [main] org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "common"
+2024-01-29 17:47:00,895 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:138 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-29 17:47:01,001 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208 Finished Spring Data repository scanning in 96 ms. Found 4 JPA repository interfaces.
+2024-01-29 17:47:01,865 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 Tomcat initialized with port(s): 8091 (http)
+2024-01-29 17:47:01,879 INFO  [main] org.apache.juli.logging.DirectJDKLog.log:173 Initializing ProtocolHandler ["http-nio-8091"]
+2024-01-29 17:47:01,880 INFO  [main] org.apache.juli.logging.DirectJDKLog.log:173 Starting service [Tomcat]
+2024-01-29 17:47:01,880 INFO  [main] org.apache.juli.logging.DirectJDKLog.log:173 Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-01-29 17:47:01,994 INFO  [main] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring embedded WebApplicationContext
+2024-01-29 17:47:01,997 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:291 Root WebApplicationContext: initialization completed in 1955 ms
+2024-01-29 17:47:02,283 INFO  [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31 HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-29 17:47:02,346 INFO  [main] org.hibernate.Version.logVersion:44 HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-01-29 17:47:02,503 WARN  [main] org.hibernate.boot.internal.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-01-29 17:47:02,617 INFO  [main] com.zaxxer.hikari.HikariDataSource.getConnection:110 HikariPool-1 - Starting...
+2024-01-29 17:47:02,818 INFO  [main] com.zaxxer.hikari.pool.HikariPool.checkFailFast:565 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d4df0f4
+2024-01-29 17:47:02,820 INFO  [main] com.zaxxer.hikari.HikariDataSource.getConnection:123 HikariPool-1 - Start completed.
+2024-01-29 17:47:02,833 INFO  [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:66 HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-01-29 17:47:02,834 WARN  [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.logSelectedDialect:73 HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-01-29 17:47:03,853 INFO  [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:51 HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-29 17:47:03,860 INFO  [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437 Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29 17:47:04,672 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor:227 spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-29 17:47:05,100 INFO  [main] org.apache.juli.logging.DirectJDKLog.log:173 Starting ProtocolHandler ["http-nio-8091"]
+2024-01-29 17:47:05,144 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220 Tomcat started on port(s): 8091 (http) with context path ''
+2024-01-29 17:47:05,176 INFO  [main] org.springframework.boot.StartupInfoLogger.logStarted:57 Started PmpApplication in 5.941 seconds (process running for 6.513)
+2024-01-29 17:48:35,480 INFO  [http-nio-8091-exec-2] org.apache.juli.logging.DirectJDKLog.log:173 Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29 17:48:35,480 INFO  [http-nio-8091-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:532 Initializing Servlet 'dispatcherServlet'
+2024-01-29 17:48:35,489 INFO  [http-nio-8091-exec-2] org.springframework.web.servlet.FrameworkServlet.initServletBean:554 Completed initialization in 7 ms
+2024-01-29 17:48:35,497 INFO  [http-nio-8091-exec-2] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:27 [CustomFilter] - Inside the do filter method executed..
+2024-01-29 17:48:35,497 INFO  [http-nio-8091-exec-2] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:28 Local Port : 8091
+2024-01-29 17:48:35,497 INFO  [http-nio-8091-exec-2] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:29 server Name : localhost
+2024-01-29 17:48:35,497 INFO  [http-nio-8091-exec-2] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:30 Server Path : /revenue/devops 
+2024-01-29 17:48:35,497 INFO  [http-nio-8091-exec-2] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:31 Request Uri is : /revenue/devops%20
+2024-01-29 17:48:36,104 INFO  [http-nio-8091-exec-2] com.pathbreaker.pmp.serviceimpl.RevenueServiceImpl.updateRevenueByProjectName:213 Revenue update is successful for projectName: devops 
+2024-01-29 17:49:33,004 INFO  [http-nio-8091-exec-3] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:27 [CustomFilter] - Inside the do filter method executed..
+2024-01-29 17:49:33,004 INFO  [http-nio-8091-exec-3] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:28 Local Port : 8091
+2024-01-29 17:49:33,004 INFO  [http-nio-8091-exec-3] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:29 server Name : localhost
+2024-01-29 17:49:33,004 INFO  [http-nio-8091-exec-3] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:30 Server Path : /revenue/devops 
+2024-01-29 17:49:33,004 INFO  [http-nio-8091-exec-3] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:31 Request Uri is : /revenue/devops%20
+2024-01-29 17:49:33,110 INFO  [http-nio-8091-exec-3] com.pathbreaker.pmp.serviceimpl.RevenueServiceImpl.updateRevenueByProjectName:213 Revenue update is successful for projectName: devops 
+2024-01-29 18:01:51,735 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m18s622ms576µs700ns).
+2024-01-29 18:29:25,511 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m33s393ms385µs100ns).
+2024-01-29 18:47:42,765 INFO  [http-nio-8091-exec-5] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:27 [CustomFilter] - Inside the do filter method executed..
+2024-01-29 18:47:42,765 INFO  [http-nio-8091-exec-5] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:28 Local Port : 8091
+2024-01-29 18:47:42,765 INFO  [http-nio-8091-exec-5] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:29 server Name : localhost
+2024-01-29 18:47:42,765 INFO  [http-nio-8091-exec-5] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:30 Server Path : /relieving/add
+2024-01-29 18:47:42,765 INFO  [http-nio-8091-exec-5] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:31 Request Uri is : /relieving/add
+2024-01-29 18:48:28,903 INFO  [http-nio-8091-exec-7] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:27 [CustomFilter] - Inside the do filter method executed..
+2024-01-29 18:48:28,903 INFO  [http-nio-8091-exec-7] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:28 Local Port : 8091
+2024-01-29 18:48:28,913 INFO  [http-nio-8091-exec-7] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:29 server Name : localhost
+2024-01-29 18:48:28,914 INFO  [http-nio-8091-exec-7] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:30 Server Path : /relieving/add
+2024-01-29 18:48:28,915 INFO  [http-nio-8091-exec-7] com.pathbreaker.services.filters.filter.CustomFilter.doFilterInternal:31 Request Uri is : /relieving/add
+2024-01-29 19:51:30,379 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m3s815ms123µs800ns).
+2024-01-29 20:00:29,475 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run:804 HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m58s999ms211µs400ns).
+2024-01-29 20:01:03,987 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650 Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29 20:01:03,993 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:350 HikariPool-1 - Shutdown initiated...
+2024-01-29 20:01:03,998 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource.close:352 HikariPool-1 - Shutdown completed.

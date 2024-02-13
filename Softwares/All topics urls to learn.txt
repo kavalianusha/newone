@@ -13,8 +13,8 @@ https://springframework.guru/jwt-authentication-in-spring-microservices-jwt-toke
 youtube link for JWT token:- https://www.youtube.com/watch?v=lA18U8dGKF8
 
 https://maven.apache.org/download.cgi -- maven download link
-
-https://github.com/webyog/sqlyog-community/wiki/Downloads:- sql yog new version download link
+steps to download maven :-1. previous Stable zip archives 
+                          2.Binary apache-maven-3.8.8-bin.zip - have to be downloaded
 
 https://www.masterincoding.com/validate-jwt-token-with-public-key-rsa256/ :- link to learn JWT tokens completely
 
@@ -26,7 +26,7 @@ baeldung.com/spring-boot-add-filter- filter
 
 The full source code of Customer filter:- https://github.com/ahmedash95/java-spring-request-filters
 
-The Schedule topic regarding the sending emails when service is up - https://www.baeldung.com/spring-scheduled-tasks
+To create our own Exceptions - https://www.baeldung.com/exception-handling-for-rest-with-spring
 
 
 Database Configuration :- 
@@ -39,12 +39,18 @@ spring.jpa.hibernate.ddl-auto=update
 Email Configuration
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
-spring.mail.username={give the mail id from which you would like to sen d the mail ex:- pbtjava@gmail.com}
-spring.mail.password={give the password of that emailId}
-    username: pbtjava@gmail.com
-    password: jcnsrxqjifkrvqxl
+spring.mail.username=
+spring.mail.password=
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
+
+
+
+PHONE OTP Configuration
+step1 : To get the below details we have to go to the twilio website
+SR1XFPQBLMUF1FPPD7S8LSZJ - Account SID
+ed19288e1750ed166b92c6bcda31db16 - Auth token
+https://www.baeldung.com/java-sms-twilio - to learn the sms to mobile no
 
 server@server:~/anushamamatha2/efiling-bazaar$ cd target
 
@@ -59,3 +65,10 @@ server@server:~/anushamamatha2/efiling-bazaar/target$ java -jar efiling-bazaar-0
 
 By performing the above commands in the server we can run the code permanently after closing the session in the server
 
+C:\Users\Admin\.m2\repository\com\pathbreaker - this directory is used for removing the custom filters or like refreshing it delete it and build again
+SUMMARY ABOUT THE ACCESS AND REFRESH TOKEN:-
+1. using the public key we have to validate the access or refresh token 
+2. using the private key we have to generate the access or refresh token
+3. we have to write the public key validation in the custom-filters 
+4. where as to generate the private key we have to write the code in the main project not the custom-filter.
+  

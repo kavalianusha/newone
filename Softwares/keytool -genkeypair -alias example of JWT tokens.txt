@@ -1,0 +1,51 @@
+keytool -genkeypair -alias example -keyalg RSA -keysize 4096 -sigalg SHA256withRSA -dname "cn=example.com,ou=exampleou,dc=example,dc=com" -keypass changeit -startdate "2019/12/19 00:00:00" -validity 365 -storetype PKCS12 -storepass changeit -keystore example.p12
+
+
+keytool -genkeypair 
+-alias example
+-keyalg RSA 
+-keysize 4096 
+-sigalg SHA256withRSA 
+-keypass pathbreaker 
+-validity 3650 
+-storetype PKCS12 
+-storepass pathbreaker 
+-keystore authtoken.jks
+
+
+C:\Program Files\Java\jdk-20\bin>keytool -genkeypair -alias example -keyalg RSA -keysize 4096 -sigalg SHA256withRSA -keypass pathbreaker -validity 3650 -storetype PKCS12 -storepass pathbreaker -keystore d:/authtoken.jks
+Enter the distinguished name. Provide a single dot (.) to leave a sub-component empty or press ENTER to use the default value in braces.
+What is your first and last name?
+  [Unknown]:  Pathbreaker
+What is the name of your organizational unit?
+  [Unknown]:  PATHBREAKER
+What is the name of your organization?
+  [Unknown]:  Pathbreaker
+What is the name of your City or Locality?
+  [Unknown]:  Hitech City
+What is the name of your State or Province?
+  [Unknown]:  Telanagan
+What is the two-letter country code for this unit?
+  [Unknown]:  IN
+Is CN=Pathbreaker, OU=PATHBREAKER, O=Pathbreaker, L=Hitech City, ST=Telanagan, C=IN correct?
+  [no]:
+Enter the distinguished name. Provide a single dot (.) to leave a sub-component empty or press ENTER to use the default value in braces.
+What is your first and last name?
+  [Pathbreaker]:
+What is the name of your organizational unit?
+  [PATHBREAKER]:
+What is the name of your organization?
+  [Pathbreaker]:
+What is the name of your City or Locality?
+  [Hitech City]:
+What is the name of your State or Province?
+  [Telanagan]:  Telangana
+What is the two-letter country code for this unit?
+  [IN]:
+Is CN=Pathbreaker, OU=PATHBREAKER, O=Pathbreaker, L=Hitech City, ST=Telangana, C=IN correct?
+  [no]:  yes
+
+Generating 4,096 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 3,650 days
+        for: CN=Pathbreaker, OU=PATHBREAKER, O=Pathbreaker, L=Hitech City, ST=Telangana, C=IN
+
+C:\Program Files\Java\jdk-20\bin>^A
